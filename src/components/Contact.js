@@ -28,31 +28,45 @@ class Contact extends React.PureComponent {
     return (
 			<div className="Contact">
 				<div className="Contact-bg"/>
-				<h2>Kontakt</h2>
-				<form onSubmit={this.handleFormSubmit}>
-					<div>
-						<label htmlFor="firstName">Jméno</label>
-						<input type="text" id="firstName" onChange={this.handleChange('firstName')} />
-						<label htmlFor="lastName">Příjmení</label>
-						<input type="text" id="lastName" onChange={this.handleChange('lastName')} />
-					</div>
-					<div>
-						<label htmlFor="email">E-mail</label>
-						<input type="email" id="email" onChange={this.handleChange('email')} />
-					</div>
-					<div>
-						<label htmlFor="phone">Telefon</label>
-						<input type="text" id="phone" onChange={this.handleChange('phone')} />
-					</div>
-					<div>
-						<label htmlFor="msg">Zpráva</label>
-						<textarea id="msg" onChange={this.handleChange('msg')} />
-					</div>
-					<di>
-						<button type="submit">Odeslat</button>
-					</di>
-				</form>
-			</div>)
+					<h1>Kontakt</h1>
+					<div className="Contact-content">
+						<form onSubmit={this.handleFormSubmit}>
+							<div>
+								<label htmlFor="firstName">Jméno</label>
+								<input type="text" id="firstName" onChange={this.handleChange('firstName')} />
+								<label htmlFor="lastName">Příjmení</label>
+								<input type="text" id="lastName" onChange={this.handleChange('lastName')} />
+							</div>
+							<div>
+								<label htmlFor="email">E-mail</label>
+								<input type="email" id="email" onChange={this.handleChange('email')} />
+							</div>
+							<div>
+								<label htmlFor="phone">Telefon</label>
+								<input type="text" id="phone" onChange={this.handleChange('phone')} />
+							</div>
+							<div>
+								<label htmlFor="msg">Zpráva</label>
+								<textarea id="msg" onChange={this.handleChange('msg')} />
+							</div>
+							<button type="submit">Odeslat</button>
+						</form>
+						<div className="Contact-info">
+							<div>
+								Jmeno Prijmeni
+							</div>
+							<div>
+								<b>Telefon</b><br/>
+								<b>E-Mail</b>
+							</div>
+							<div>
+								Ulice<br/>
+								Mesto<br/>
+								PSC
+							</div>
+					  </div>
+				  </div>
+		  </div>)
 	}
 }
 

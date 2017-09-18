@@ -1,5 +1,4 @@
 .Welcome {
-    font-size: 45px;
     padding:50px 50px;
     height:100vh;
     width: 100vw;
@@ -20,6 +19,28 @@
     position: absolute;
     top:0;
     left:0;
+}
+
+.Welcome-content h1 {
+    animation: slide-up-heading 800ms ease-out;
+}
+
+@keyframes slide-up-heading {
+    from {
+        opacity: 0.2;
+        margin-top: 70px;
+    }
+}
+
+.Welcome-content p {
+    animation: slide-up-paragraph 1000ms ease-out;
+}
+
+@keyframes slide-up-paragraph {
+    from {
+        opacity: 0.2;
+        margin-top: 70px;
+    }
 }
 
 @keyframes shrink {

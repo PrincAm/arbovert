@@ -3,7 +3,7 @@ import '../styles/Service.css'
 
 const Service = () =>
 	<div className="Service">
-		<h2>Služby</h2>
+		<h1>Služby</h1>
 	</div>
 
 export default Service

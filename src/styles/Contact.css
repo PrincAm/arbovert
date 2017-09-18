@@ -1,11 +1,55 @@
 .Contact {
-    font-size: 45px;
     padding:50px 50px;
     height:100vh;
     width: 100vw;
     min-height: 560px;
     position: relative;
+    /*color: #ffffff;*/
+}
+
+.Contact label {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.Contact input {
+    font: 16px Open Sans;
+    width: 180px;
+    border: 1px solid #999;
+    height: 32px;
+}
+
+.Contact textarea {
+    font: 16px Open Sans;
+    width: 480px;
+    height: 240px;
+    border: 1px solid #999;
+}
+
+.Contact div {
+    padding-bottom: 10px;
+}
+
+.Contact-content button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border: none;
+    border-radius: 0px;
+    font-family: Arial;
     color: #ffffff;
+    font-size: 20px;
+    background: #1a1a1a;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.Contact-content button:hover {
+    background: #545454;
+    text-decoration: none;
 }
 
 .Contact-bg {
@@ -21,6 +65,21 @@
     top:0;
     left:0;
 }
+
+.Contact-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Contact-form {
+    display: flex;
+}
+
+.Contact-form,
+.Contact-info {
+    width: 45vw;
+}
+
 
 @keyframes shrinkContact {
     0% {

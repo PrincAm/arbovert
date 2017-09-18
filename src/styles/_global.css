@@ -5,6 +5,7 @@ body {
     height: 100vh;
     overflow-y: scroll;
     color: #3C3F40;
+    font-size: 24px;
 }
 
 * {
@@ -80,9 +81,6 @@ strong {
     padding: 0 !important;
     height: 100%;
 }
-
-
-
 
 .active {
     color:red !important;

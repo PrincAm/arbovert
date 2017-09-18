@@ -1,7 +1,6 @@
 .Service {
-    font-size: 45px;
-    padding:50px 50px;
-    height:100vh;
+    padding: 50px 50px;
+    height: 100vh;
     width: 100vw;
     min-height: 560px;
     color: #000000;
