@@ -12,15 +12,10 @@ import '../styles/Welcome.css'
 import '../styles/Contact.css'
 import '../styles/Reference.css'
 
-// var Link       = Scroll.Link;
 var Element    = Scroll.Element;
 var Events     = Scroll.Events;
 var scroll     = Scroll.animateScroll;
 var scrollSpy  = Scroll.scrollSpy;
-
-var durationFn = function(deltaTop) {
-  return deltaTop;
-};
 
 class App extends Component {
   constructor (props){
