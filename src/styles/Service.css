@@ -1,9 +1,42 @@
 .Service {
     padding: 50px 50px;
-    height: 100vh;
     width: 100vw;
     min-height: 560px;
-    color: #000000;
-    background-color: #cacaca;
+    color: #ECE9E9;
+    background-color: #1a1a1a;
     z-index: 1;
+}
+
+.Service-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Service-box {
+    background-color: #00D7FF;
+    height: 30vh;
+    width: 25vw;
+}
+
+.Service-contact {
+    text-align: center;
+    background-color: #bf616a;
+    padding-bottom: 20px;
+}
+
+.Service-contact h2 {
+    padding-top: 15px;
+}
+
+.Service-contact button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border: none;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1a1a1a;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
 }
