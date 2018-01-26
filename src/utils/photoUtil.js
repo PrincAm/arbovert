@@ -32,7 +32,8 @@ export const PHOTOS = [
 		width: 641,
 		height: 854,
 		sizes
-	},
+	}
+	,
 	{
 		src: photo2,
 		width: 641,

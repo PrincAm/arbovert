@@ -4,46 +4,43 @@ import Lightbox from 'react-images'
 import {PHOTOS} from '../utils/photoUtil'
 
 class Reference extends React.Component {
-	constructor(){
-		super()
-		this.state = {currentImage: 0, lightboxIsOpen: false}
-		this.closeLightbox = this.closeLightbox.bind(this)
-		this.openLightbox = this.openLightbox.bind(this)
-		this.gotoNext = this.gotoNext.bind(this)
-		this.gotoPrevious = this.gotoPrevious.bind(this)
+
+	state = {
+		currentImage: 0,
+		lightboxIsOpen: false
 	}
 
-	openLightbox(index, event){
-		event.preventDefault()
+	openLightbox = (_, obj) => {
 		this.setState({
-			currentImage: index,
-			lightboxIsOpen: true
+			currentImage: obj.index,
+			lightboxIsOpen: true,
 		})
 	}
 
-	closeLightbox(){
+	closeLightbox = () => {
 		this.setState({
 			currentImage: 0,
 			lightboxIsOpen: false
-		});
+		})
 	}
 
-	gotoPrevious(){
+	gotoPrevious = () => {
 		this.setState({
 			currentImage: this.state.currentImage - 1
 		})
 	}
 
-	gotoNext(){
+	gotoNext = () => {
 		this.setState({
 			currentImage: this.state.currentImage + 1
 		})
 	}
 
 	render () {
+		const {currentImage, lightboxIsOpen} = this.state
 		return(
 			<div className="Reference">
-				<Gallery photos={PHOTOS} cols={6} onClickPhoto={this.openLightbox} />
+				<Gallery photos={PHOTOS} cols={6} onClick={this.openLightbox} />
 				<Lightbox
 					theme={{container: { background: 'rgba(0, 0, 0, 0.85)' }}}
 					images={PHOTOS}
@@ -51,8 +48,8 @@ class Reference extends React.Component {
 					onClose={this.closeLightbox}
 					onClickPrev={this.gotoPrevious}
 					onClickNext={this.gotoNext}
-					currentImage={this.state.currentImage}
-					isOpen={this.state.lightboxIsOpen}
+					currentImage={currentImage}
+					isOpen={lightboxIsOpen}
 					width={1600}
 				/>
 			</div>

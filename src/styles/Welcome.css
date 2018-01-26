@@ -1,9 +1,9 @@
 .Welcome {
-    padding:50px 50px;
+    padding: 0 50px 50px 50px;
     height:100vh;
     width: 100vw;
     min-height: 560px;
-    position: relative;
+    /*position: relative;*/
     color: #ECE9E9;
 }
 
@@ -220,4 +220,14 @@
     to {
         opacity: 1;
     }
+}
+
+.Welcome-div,
+.Welcome-div-question {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.Welcome-div-question {
+    text-align: center;
 }

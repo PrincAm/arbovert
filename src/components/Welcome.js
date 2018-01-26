@@ -12,12 +12,18 @@ const Welcome = () =>
 
 	<div className="Welcome-content">
 		<h1>Arbovert</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-			magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-			aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur.
-			Excepteur sint occaecat cupidatat non proident..</p>
+		<div className="Welcome-div-question">
+		  Proč si vybrat právě nás?
+		</div>
+		<div className="Welcome-div">
+			Jsme firma s individuálním přístupem a jsme velice flexibilní i v havarijních situacích.
+		</div>
+		<div className="Welcome-div">
+			Používáme ty nejkvalitnější materiály které máme roky ověřeny od našich dodavatelů.
+		</div>
+		<div className="Welcome-div">
+			Profesionalita a odbornost našich lidí je to, na čem zakládáme a našim cílem je se zdokonalovat a zlepšovat v ostatních pracích, u kterých ostatní tápají.
+		</div>
 	</div>
 </div>
 
