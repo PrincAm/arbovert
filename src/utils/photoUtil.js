@@ -26,132 +26,135 @@ const sizes = [
 	'100vw'
 ]
 
-export const PHOTOS = [
-	{
-		src: photo1,
-		width: 641,
-		height: 854,
-		sizes
-	}
-	,
-	{
-		src: photo2,
-		width: 641,
-		height: 854,
-		sizes
-	},
-	{
-		src: photo3,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo4,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo5,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo6,
-		width: 1000,
-		height: 750,
-		sizes
-	},
-	{
-		src: photo7,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo8,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo9,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo10,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo11,
-		width: 1000,
-		height: 750,
-		sizes
-	},
-	{
-		src: photo12,
-		width: 1000,
-		height: 750,
-		sizes
-	},
-	{
-		src: photo13,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo14,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo15,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo16,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo17,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo18,
-		width: 1994,
-		height: 2592,
-		sizes
-	},
-	{
-		src: photo19,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo20,
-		width: 750,
-		height: 1000,
-		sizes
-	},
-	{
-		src: photo21,
-		width: 750,
-		height: 1000,
-		sizes
-	}
+export const PHOTOS1 = [
+  {
+    src: photo1,
+    width: 641,
+    height: 854,
+    sizes
+  }
+  ,
+  {
+    src: photo2,
+    width: 641,
+    height: 854,
+    sizes
+  },
+  {
+    src: photo3,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo4,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo5,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo6,
+    width: 1000,
+    height: 750,
+    sizes
+  },
+  {
+    src: photo7,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo8,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo9,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo10,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo11,
+    width: 1000,
+    height: 750,
+    sizes
+  }
+]
+
+export const PHOTOS2 = [
+  {
+    src: photo12,
+    width: 1000,
+    height: 750,
+    sizes
+  },
+  {
+    src: photo13,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo14,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo15,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo16,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo17,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo18,
+    width: 1994,
+    height: 2592,
+    sizes
+  },
+  {
+    src: photo19,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo20,
+    width: 750,
+    height: 1000,
+    sizes
+  },
+  {
+    src: photo21,
+    width: 750,
+    height: 1000,
+    sizes
+  }
 ]

@@ -12,20 +12,30 @@
     justify-content: space-around;
 }
 
-.Service-box {
-    background-color: #00D7FF;
-    height: 30vh;
-    width: 25vw;
+.Service-box1,
+.Service-box2,
+.Service-box3,
+.Service-box4 {
+    height: 100vh;
+    width: 50vw;
+}
+
+.Service-box1 {
+    background-color: #9da0a4;
+}
+
+.Service-box2 {
+    background-color: #000066;
 }
 
 .Service-contact {
     text-align: center;
     background-color: #bf616a;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 .Service-contact h2 {
-    padding-top: 15px;
+    /*padding-top: 15px;*/
 }
 
 .Service-contact button {

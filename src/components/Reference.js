@@ -1,7 +1,7 @@
 import React from 'react'
 import Gallery from 'react-photo-gallery'
 import Lightbox from 'react-images'
-import {PHOTOS} from '../utils/photoUtil'
+import {PHOTOS1, PHOTOS2} from '../utils/photoUtil'
 
 class Reference extends React.Component {
 
@@ -40,18 +40,34 @@ class Reference extends React.Component {
 		const {currentImage, lightboxIsOpen} = this.state
 		return(
 			<div className="Reference">
-				<Gallery photos={PHOTOS} cols={6} onClick={this.openLightbox} />
-				<Lightbox
-					theme={{container: { background: 'rgba(0, 0, 0, 0.85)' }}}
-					images={PHOTOS}
-					backdropClosesModal={true}
-					onClose={this.closeLightbox}
-					onClickPrev={this.gotoPrevious}
-					onClickNext={this.gotoNext}
-					currentImage={currentImage}
-					isOpen={lightboxIsOpen}
-					width={1600}
-				/>
+        <div className="Reference-div">
+          <Gallery photos={PHOTOS1} cols={6} onClick={this.openLightbox} />
+          <Lightbox
+            theme={{container: { background: 'rgba(0, 0, 0, 0.85)' }}}
+            images={PHOTOS1}
+            backdropClosesModal={true}
+            onClose={this.closeLightbox}
+            onClickPrev={this.gotoPrevious}
+            onClickNext={this.gotoNext}
+            currentImage={currentImage}
+            isOpen={lightboxIsOpen}
+            width={800}
+          />
+        </div>
+        <div className="Reference-div">
+          <Gallery photos={PHOTOS2} cols={6} onClick={this.openLightbox} />
+          <Lightbox
+            theme={{container: { background: 'rgba(0, 0, 0, 0.85)' }}}
+            images={PHOTOS2}
+            backdropClosesModal={true}
+            onClose={this.closeLightbox}
+            onClickPrev={this.gotoPrevious}
+            onClickNext={this.gotoNext}
+            currentImage={currentImage}
+            isOpen={lightboxIsOpen}
+            width={800}
+          />
+        </div>
 			</div>
 		)
 	}

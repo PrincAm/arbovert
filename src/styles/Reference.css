@@ -2,8 +2,14 @@
     font-size: 45px;
     padding: 40px 40px;
     min-height: 560px;
-    height: 1200px;
+    height: 100%;
     width: 100vw;
-    background-color: #1a1a1a;
+    background: rgba(26,26,26,0.9);
     z-index: 1;
+    display: flex;
+}
+
+.Reference-div {
+    height: 100vh;
+    width: 50vw;
 }
