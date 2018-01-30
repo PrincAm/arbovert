@@ -10,6 +10,13 @@ const scrollToWelcome = () => {
 	scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: "easeInOutQuad", offset: -70})
 }
 
+const test = () => {
+  // document.querySelector(".Service-go-to-contact").style.position = "sticky"
+}
+const test2 = () => {
+  // document.querySelector(".Service-go-to-contact").style.position = "relative"
+}
+
 const Header = (props) =>
 	<nav className="Header-nav">
 		<div className="Header-logo">
@@ -23,19 +30,20 @@ const Header = (props) =>
       <ul>
         <li>
           <Link activeClass="active" className="Header-welcome" to="welcome"
-                spy={true} smooth={"easeInOutQuad"} duration={2000} delay={100} offset={-70}>Domů</Link>
+                spy={true} smooth={"easeInOutQuad"} duration={2000} delay={50} offset={-70}>Domů</Link>
         </li>
         <li>
           <Link activeClass="active" className="Header-service" to="service"
-                spy={true} smooth={"easeInOutQuad"} duration={2000} delay={100}>Služby</Link>
+                spy={true} smooth={"easeInOutQuad"} duration={2000}
+                delay={50} onSetActive={test} onSetInactive={test2}>Služby</Link>
         </li>
         <li>
           <Link activeClass="active" className="Header-reference" to="reference"
-                spy={true} smooth={"easeInOutQuad"} duration={2000} delay={100}>Reference</Link>
+                spy={true} smooth={"easeInOutQuad"} duration={2000} delay={50}>Reference</Link>
         </li>
         <li>
           <Link activeClass="active" className="Header-contact" to="contact"
-                spy={true} smooth={"easeInOutQuad"} duration={2000} delay={100}>Kontakt</Link>
+                spy={true} smooth={"easeInOutQuad"} duration={2000} delay={50}>Kontakt</Link>
         </li>
       </ul>
     </div>

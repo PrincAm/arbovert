@@ -54,7 +54,16 @@
 
 .Contact-content {
     display: flex;
-    justify-content: space-between;
+    font-size: 1.6em;
+    padding-left: 40px;
+}
+
+.Contact-inner-div {
+    width: 50vw;
+}
+
+.Contact-companyName {
+    color: #bf616a;
 }
 
 .Contact-form {

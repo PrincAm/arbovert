@@ -1,44 +1,48 @@
 .Service {
-    padding: 50px 50px;
-    width: 100vw;
-    min-height: 560px;
     color: #ECE9E9;
-    background-color: #1a1a1a;
     z-index: 1;
 }
 
-.Service-content {
-    display: flex;
-    justify-content: space-around;
+.Service-arbo,
+.Service-work {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.Service-box1,
-.Service-box2,
-.Service-box3,
-.Service-box4 {
+.Service-arbo {
+    background-image: url('../assets/photos/arbovert9.jpg');
+}
+
+.Service-work {
+    background-image: url('../assets/photos/arbovert18.jpg');
+}
+
+.Service-box {
     height: 100vh;
     width: 50vw;
+    background-color: rgba(0,0,0,0.9);
+    /*background-color: rgba(26,26,26,0.9);*/
 }
 
-.Service-box1 {
-    background-color: #9da0a4;
+.Service-box h1 {
+    margin-top: 0px;
+    padding: 70px 0 0 70px;
 }
 
-.Service-box2 {
-    background-color: #000066;
+.Service-box div {
+    padding: 10px 40px;
+    line-height: 1.5em;
+    font-size: 1.4em;
 }
 
-.Service-contact {
-    text-align: center;
-    background-color: #bf616a;
-    /*padding-bottom: 20px;*/
-}
-
-.Service-contact h2 {
-    /*padding-top: 15px;*/
-}
-
-.Service-contact button {
+.Service-go-to-contact {
+    /*position: -webkit-sticky;*/
+    /*position: sticky;*/
+    /*top: 100px;*/
+    /*left: 700px;*/
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border: none;
