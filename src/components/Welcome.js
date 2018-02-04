@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Welcome.css'
 
 const Welcome = () =>
 <div className="Welcome">
@@ -22,7 +23,8 @@ const Welcome = () =>
 			Používáme ty nejkvalitnější materiály které máme roky ověřeny od našich dodavatelů.
 		</div>
 		<div className="Welcome-div">
-			Profesionalita a odbornost našich lidí je to, na čem zakládáme a našim cílem je se zdokonalovat a zlepšovat v ostatních pracích, u kterých ostatní tápají.
+			Profesionalita a odbornost našich lidí je to, na čem zakládáme a našim cílem je se zdokonalovat a zlepšovat v 
+      ostatních pracích, u kterých ostatní tápají.
 		</div>
 	</div>
 </div>

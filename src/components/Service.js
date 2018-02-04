@@ -1,9 +1,6 @@
 import React from 'react'
-import Scroll from 'react-scroll'
-
+import {scroller} from 'react-scroll'
 import '../styles/Service.css'
-
-const scroller = Scroll.scroller
 
 const scrollToContact = () => () => {
 	scroller.scrollTo('contact', {duration: 1500, delay: 100, smooth: true})
@@ -28,9 +25,11 @@ const Service = () =>
           proti ptactvu, drobné klempířské a pokrývačské opravy, tlakové mytí fasád, mytí oken, opravy spár panelových
           domů a jiné.
         </div>
-        <button onClick={scrollToContact()} className="Service-go-to-contact">
-          Kontakt
-        </button>
+        <div className="Service-go-to-contact">
+          <button onClick={scrollToContact()}>
+            Kontakt
+          </button>
+        </div>
       </div>
     </div>
 	</div>

@@ -1,20 +1,9 @@
 import React from 'react'
-import Scroll from 'react-scroll'
-import logo from '../assets/logo.svg'
+import {Link, scroller} from 'react-scroll'
 import '../styles/Header.css'
-
-const Link = Scroll.Link
-const scroller = Scroll.scroller
 
 const scrollToWelcome = () => {
 	scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: "easeInOutQuad", offset: -70})
-}
-
-const test = () => {
-  // document.querySelector(".Service-go-to-contact").style.position = "sticky"
-}
-const test2 = () => {
-  // document.querySelector(".Service-go-to-contact").style.position = "relative"
 }
 
 const Header = (props) =>
@@ -35,7 +24,7 @@ const Header = (props) =>
         <li>
           <Link activeClass="active" className="Header-service" to="service"
                 spy={true} smooth={"easeInOutQuad"} duration={2000}
-                delay={50} onSetActive={test} onSetInactive={test2}>Služby</Link>
+                delay={50}>Služby</Link>
         </li>
         <li>
           <Link activeClass="active" className="Header-reference" to="reference"
