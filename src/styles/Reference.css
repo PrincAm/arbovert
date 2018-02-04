@@ -1,0 +1,24 @@
+.Reference {
+    font-size: 45px;
+    padding: 40px 40px;
+    min-height: 560px;
+    height: 100%;
+    width: 100vw;
+    background: #1a1a1a;
+    z-index: 1;
+    display: flex;
+}
+
+.Reference-arbo,
+.Reference-work {
+    height: 100%;
+    width: 50vw;
+}
+
+.Reference-arbo {
+  padding-right: 1px;
+}
+
+.Reference-work {
+  padding-left: 3px;
+}

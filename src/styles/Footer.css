@@ -1,0 +1,20 @@
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.6em;
+}
+
+.Footer-group-center {
+    display: flex;
+    align-items: center;
+}
+
+.Footer-group-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer a {
+    text-transform: uppercase;
+    cursor: pointer;
+}
