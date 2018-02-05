@@ -18,7 +18,10 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^6.10.3",
     "eslint-plugin-standard": "^3.0.1",
-    "react-scripts": "^0.9.5"
+    "gh-pages": "^1.1.0",
+    "react-scripts": "^0.9.5",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
