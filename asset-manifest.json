@@ -1,11 +1,8 @@
 {
-  "main.css": "static/css/main.af0d8ef6.css",
-  "main.css.map": "static/css/main.af0d8ef6.css.map",
-  "main.js": "static/js/main.4a4b119b.js",
-  "main.js.map": "static/js/main.4a4b119b.js.map",
-  "static/media/UniversLTStd-Bold.ttf": "static/media/UniversLTStd-Bold.a07bd031.ttf",
-  "static/media/UniversLTStd-Light.ttf": "static/media/UniversLTStd-Light.fb415f94.ttf",
-  "static/media/UniversLTStd.ttf": "static/media/UniversLTStd.3b78600f.ttf",
+  "main.css": "static/css/main.821ba429.css",
+  "main.css.map": "static/css/main.821ba429.css.map",
+  "main.js": "static/js/main.7f805af6.js",
+  "main.js.map": "static/js/main.7f805af6.js.map",
   "static/media/arbovert1.jpg": "static/media/arbovert1.8bc99dbc.jpg",
   "static/media/arbovert10.jpg": "static/media/arbovert10.2139ba78.jpg",
   "static/media/arbovert11.jpg": "static/media/arbovert11.616339b1.jpg",
@@ -31,6 +28,5 @@
   "static/media/background2.jpg": "static/media/background2.44a3140c.jpg",
   "static/media/background3.jpg": "static/media/background3.b9f32bc8.jpg",
   "static/media/background4.jpg": "static/media/background4.0c31788f.jpg",
-  "static/media/background5.jpg": "static/media/background5.92519f32.jpg",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "static/media/background5.jpg": "static/media/background5.92519f32.jpg"
 }
