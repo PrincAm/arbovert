@@ -62,3 +62,10 @@
     color: red;
     -webkit-text-fill-color: unset;
 }
+
+.Header-burger-icon div {
+    width: 35px;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin: 6px 0;
+}
