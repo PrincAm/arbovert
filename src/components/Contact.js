@@ -3,13 +3,6 @@ import '../styles/Contact.css'
 
 const Contact = () => (
   <div className="Contact">
-    <div className="Contact-bg">
-      <span />
-      <span />
-      <span />
-      <span />
-      <span />
-    </div>
     <h1>Kontakt</h1>
     <div className="Contact-content">
       <div className="Contact-inner-div">

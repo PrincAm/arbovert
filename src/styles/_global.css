@@ -6,6 +6,7 @@ body {
     overflow-y: scroll;
     color: #3C3F40;
     font-size: 24px;
+    background-color: #1a1a1a;
 }
 
 * {

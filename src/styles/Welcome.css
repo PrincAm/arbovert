@@ -1,9 +1,23 @@
 .Welcome {
     padding: 0 50px 50px 50px;
-    height:100vh;
+    height: 100%;
     width: 100vw;
-    min-height: 560px;
+    min-height: 100vh;
     color: #ECE9E9;
+}
+
+.Welcome-content h1 {
+    -webkit-animation: fade-in 2s ease-out;
+    -moz-animation: fade-in 2s ease-out;
+    -o-animation: fade-in 2s ease-out;
+    animation: fade-in 2s ease-out;
+}
+
+.Welcome-content p {
+    -webkit-animation: fade-in 3s ease-out;
+    -moz-animation: fade-in 3s ease-out;
+    -o-animation: fade-in 3s ease-out;
+    animation: fade-in 3s ease-out;
 }
 
 .Welcome-bg,
@@ -165,20 +179,6 @@
     100% {
         opacity: 0
     }
-}
-
-.Welcome-content h1 {
-    -webkit-animation: fade-in 2s ease-out;
-    -moz-animation: fade-in 2s ease-out;
-    -o-animation: fade-in 2s ease-out;
-    animation: fade-in 2s ease-out;
-}
-
-.Welcome-content p {
-    -webkit-animation: fade-in 3s ease-out;
-    -moz-animation: fade-in 3s ease-out;
-    -o-animation: fade-in 3s ease-out;
-    animation: fade-in 3s ease-out;
 }
 
 @-webkit-keyframes fade-in {
