@@ -3,6 +3,12 @@
     z-index: 1;
 }
 
+@media (max-width: 767px) {
+    .Service {
+        font-size: 0.5em;
+    }
+}
+
 .Service-arbo,
 .Service-work {
     width: 100vw;
@@ -25,6 +31,13 @@
     width: 50%;
     min-width: 50vw;
     background-color: rgba(0,0,0,0.9);
+}
+
+@media (max-width: 767px) {
+    .Service-box {
+        width: 100%;
+        background-color: rgba(0,0,0,0.5);
+    }
 }
 
 .Service-box h1 {

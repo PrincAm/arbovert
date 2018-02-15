@@ -4,17 +4,27 @@
     font-size: 0.6em;
 }
 
+.Footer a {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.Footer-menu {
+    flex-wrap: wrap;
+}
+
 .Footer-group-center {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .Footer-group-column {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.Footer a {
-    text-transform: uppercase;
-    cursor: pointer;
+.Footer-company-name {
+    padding: 0 5px 0 5px;
 }

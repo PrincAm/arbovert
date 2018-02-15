@@ -16,9 +16,29 @@
 }
 
 .Reference-arbo {
-  padding-right: 1px;
+    padding-right: 1px;
 }
 
 .Reference-work {
-  padding-left: 3px;
+    padding-left: 3px;
+}
+
+@media (max-width: 767px) {
+    .Reference {
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .Reference-arbo,
+    .Reference-work {
+        width: 100vw;
+    }
+
+    .Reference-arbo {
+        padding: 0;
+    }
+
+    .Reference-work {
+        padding: 20px 0 0 0;
+    }
 }

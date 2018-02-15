@@ -9,8 +9,8 @@ import {Element} from 'react-scroll'
 import Responsive from 'react-responsive';
 import '../styles/App.css'
 
-const Mobile = props => <Responsive {...props} maxWidth={767} />
-const Desktop = props => <Responsive {...props} minWidth={767} />
+export const Mobile = props => <Responsive {...props} maxWidth={767} />
+export const Desktop = props => <Responsive {...props} minWidth={767} />
 
 const App = () => {
    const appContainer = (

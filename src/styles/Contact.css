@@ -7,6 +7,12 @@
     color: #ECE9E9;
 }
 
+@media (max-width: 767px) {
+    .Contact {
+        font-size: 0.5em;
+    }
+}
+
 /*.Contact-content button {*/
     /*-webkit-border-radius: 0;*/
     /*-moz-border-radius: 0;*/
@@ -46,4 +52,10 @@
 .Contact-form,
 .Contact-info {
     width: 45vw;
+}
+
+@media (max-width: 767px) {
+    .Contact-content {
+        padding-left: 0;
+    }
 }

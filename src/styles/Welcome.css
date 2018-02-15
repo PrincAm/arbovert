@@ -6,6 +6,12 @@
     color: #ECE9E9;
 }
 
+@media (max-width: 767px) {
+    .Welcome {
+        font-size: 0.5em;
+    }
+}
+
 .Welcome-content h1 {
     -webkit-animation: fade-in 2s ease-out;
     -moz-animation: fade-in 2s ease-out;

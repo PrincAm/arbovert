@@ -20,7 +20,7 @@ const scrollToContact = () => {
 
 const Footer = () =>
 	<div className="Footer">
-		<div className="Footer-group-center">
+		<div className="Footer-menu Footer-group-center">
       <a onClick={scrollToWelcome}>
         <span>Domů</span>
       </a>
@@ -37,15 +37,15 @@ const Footer = () =>
         <span>Kontakt</span>
       </a>
     </div>
-		<div className="Footer-group-center">
+		<div className="Footer-company-name Footer-group-center">
       © 2018 Arbovert
     </div>
 		<div className="Footer-group-column">
       <div>
         739 969 933
       </div>
-      <div>
-        lukaaskacer@gmail.com
+      <div className="Footer-mail">
+        lukaaskacer@&#8203;gmail.com
       </div>
     </div>
 	</div>
