@@ -1,6 +1,5 @@
 import React from 'react'
 import {scroller} from 'react-scroll'
-import {Mobile} from './App'
 import '../styles/Service.css'
 
 const scrollToContact = () => () => {

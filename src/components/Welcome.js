@@ -2,7 +2,7 @@ import React from 'react'
 import Responsive from 'react-responsive'
 import '../styles/Welcome.css'
 
-const Desktop = props => <Responsive {...props} minWidth={992} />
+const Desktop = (props) => <Responsive {...props} minWidth={992} />
 
 const Welcome = () =>
 <div className="Welcome">
