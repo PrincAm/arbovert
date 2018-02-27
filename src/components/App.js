@@ -14,30 +14,30 @@ export const Desktop = (props) => <Responsive {...props} minWidth={767} />
 
 const App = () => (
   <div className="App">
-   <div className="App-header">
-     <Header />
-   </div>
-
-   <Element name="welcome">
-     <Welcome />
-   </Element>
-
-   <Element name="service">
-     <Service />
-   </Element>
-
-   <Element name="reference">
-     <Reference />
-   </Element>
-
-   <Element name="contact">
-     <Contact />
-   </Element>
-
-   <div className="App-footer">
-     <Footer />
+    <div className="App-header">
+      <Header />
     </div>
-  </div>
+
+    <Element name="welcome">
+      <Welcome />
+    </Element>
+
+    <Element name="service">
+      <Service />
+    </Element>
+
+    <Element name="reference">
+      <Reference />
+    </Element>
+
+    <Element name="contact">
+      <Contact />
+    </Element>
+
+    <div className="App-footer">
+      <Footer />
+    </div>
+  </div>     
 )
 
 export default App

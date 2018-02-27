@@ -1,0 +1,7 @@
+.MobileMenu {
+    top: 80px;
+    position: fixed;
+    background: #000066;
+    z-index: 1;
+    width: 100%;
+}

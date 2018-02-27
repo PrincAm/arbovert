@@ -63,9 +63,94 @@
     -webkit-text-fill-color: unset;
 }
 
-.Header-burger-icon div {
-    width: 35px;
-    height: 5px;
-    background-color: #FFFFFF;
-    margin: 6px 0;
+.Header-burger-icon {
+    /*display: block;*/
+    /*position: relative;*/
+    /*top: 50px;*/
+    /*left: 50px;*/
+
+    /*z-index: 100;*/
+
+    /*-webkit-user-select: none;*/
+    /*user-select: none;*/
+}
+
+.Header-burger-icon input
+{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+}
+
+.Header-burger-icon span
+{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+}
+
+.Header-burger-icon span:first-child
+{
+    transform-origin: 0% 0%;
+}
+
+.Header-burger-icon span:nth-last-child(2)
+{
+    transform-origin: 0% 100%;
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+.Header-burger-icon input:checked ~ span
+{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+.Header-burger-icon input:checked ~ span:nth-last-child(3)
+{
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+.Header-burger-icon input:checked ~ span:nth-last-child(2)
+{
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+.Header-burger-icon input:checked ~ ul
+{
+    transform: none;
 }
