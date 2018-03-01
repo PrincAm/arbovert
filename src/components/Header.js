@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Link, scroller} from 'react-scroll'
+import classNames from 'classnames'
 import {Mobile, Desktop} from './App'
 import MobileMenu from './MobileMenu'
 import '../styles/Header.css'
@@ -21,6 +22,8 @@ class Header extends Component {
   }
 
   render() {
+    const {mobileMenuIsOpen} = this.state
+    const classNameBurgerIcon = classNames('Header-burger-icon', {change: mobileMenuIsOpen})
 
     return (
       <nav className="Header-nav">
@@ -32,11 +35,10 @@ class Header extends Component {
         </div>
         <div className="Header-spacer" />
         <Mobile>
-         <div className="Header-burger-icon" onClick={this.handleMobilMenu}>
-           <input type="checkbox" />
-           <span></span>
-           <span></span>
-           <span></span>
+         <div className={classNameBurgerIcon} onClick={this.handleMobilMenu}>
+           <div className="bar1"></div>
+           <div className="bar2"></div>
+           <div className="bar3"></div>
          </div>
          {this.state.mobileMenuIsOpen && <MobileMenu onHandleMobilMenu={this.handleMobilMenu}/>}
         </Mobile>

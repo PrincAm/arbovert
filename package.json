@@ -4,6 +4,7 @@
   "homepage": "https://princam.github.io/arbovert",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.5",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-images": "0.5.13",
