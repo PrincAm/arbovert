@@ -3,8 +3,8 @@ import React from 'react'
 import {Link} from 'react-scroll'
 import '../styles/MobileMenu.css'
 
-const MobileMenu = ({onHandleMobilMenu}) => (
-  <div className="MobileMenu">
+const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
+  <div className={menuClassName}>
     <div>
       <Link activeClass="active" className="Header-welcome" to="welcome"
             spy={true} smooth={"easeInOutQuad"} duration={2000}

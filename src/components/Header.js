@@ -3,6 +3,7 @@ import {Link, scroller} from 'react-scroll'
 import classNames from 'classnames'
 import {Mobile, Desktop} from './App'
 import MobileMenu from './MobileMenu'
+import {Transition} from 'react-transition-group'
 import '../styles/Header.css'
 
 const scrollToWelcome = () => {
@@ -29,18 +30,22 @@ class Header extends Component {
       <nav className="Header-nav">
         <div className="Header-logo">
           <a onClick={scrollToWelcome}>
-            {/*<img alt="arbovert-logo" src={logo}/>*/}
             <span>Arbovert</span>
           </a>
         </div>
         <div className="Header-spacer" />
         <Mobile>
-         <div className={classNameBurgerIcon} onClick={this.handleMobilMenu}>
-           <div className="bar1"></div>
-           <div className="bar2"></div>
-           <div className="bar3"></div>
-         </div>
-         {this.state.mobileMenuIsOpen && <MobileMenu onHandleMobilMenu={this.handleMobilMenu}/>}
+          <div className={classNameBurgerIcon} onClick={this.handleMobilMenu}>
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3"></div>
+          </div>
+          <Transition in={this.state.mobileMenuIsOpen} timeout={300} >
+            {(state) => {
+              const menuClassName = classNames('MobileMenu', {visible: state === 'entered'})
+              return <MobileMenu menuClassName={menuClassName} onHandleMobilMenu={this.handleMobilMenu}/>
+            }}
+          </Transition>
         </Mobile>
         <Desktop>
           <div className="Header-menu">
