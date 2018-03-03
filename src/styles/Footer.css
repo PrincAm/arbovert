@@ -1,4 +1,8 @@
 .Footer {
+    background-color: #1d2120;
+    height: 80px;
+    padding: 20px;
+    color: white;
     display: flex;
     justify-content: space-between;
     font-size: 0.6em;

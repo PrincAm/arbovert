@@ -13,17 +13,24 @@
 .Service-work {
     width: 100vw;
     min-height: 100vh;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .Service-arbo {
-    background-image: url('../assets/photos/arbovert9.jpg');
+    background-position: 200px;
 }
 
 .Service-work {
-    background-image: url('../assets/photos/arbovert18.jpg');
+    background-position: center;
+}
+
+.Service-arbo {
+    background-image: url('../assets/arbo.jpg');
+}
+
+.Service-work {
+    background-image: url('../assets/upwork.jpg');
 }
 
 .Service-box {
@@ -64,7 +71,7 @@
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
-    background: #1a1a1a;
+    background: #1d2120;
     padding: 9px 20px 10px 20px;
     text-decoration: none;
 }

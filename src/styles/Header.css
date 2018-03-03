@@ -1,3 +1,9 @@
+.Header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 .Header-nav {
     background: rgba(0, 0, 0, 0.7);
     height: 80px;
