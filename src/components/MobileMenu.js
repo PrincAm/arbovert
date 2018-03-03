@@ -1,5 +1,5 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
 import {Link} from 'react-scroll'
 import '../styles/MobileMenu.css'
 
@@ -29,3 +29,8 @@ const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
 )
 
 export default MobileMenu
+
+MobileMenu.propTypes = {
+  onHandleMobilMenu: PropTypes.func.isRequired,
+  menuClassName: PropTypes.string.isRequired
+}

@@ -3,12 +3,7 @@ import {Link, scroller} from 'react-scroll'
 import classNames from 'classnames'
 import {Mobile, Desktop} from './App'
 import MobileMenu from './MobileMenu'
-import {Transition} from 'react-transition-group'
 import '../styles/Header.css'
-
-const scrollToWelcome = () => {
-	scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: "easeInOutQuad", offset: -70})
-}
 
 class Header extends Component {
 
@@ -16,7 +11,14 @@ class Header extends Component {
     mobileMenuIsOpen: false
   }
 
-  handleMobilMenu = () => {
+  handleScrollToWelcome = () => {
+    scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: "easeInOutQuad", offset: -70})
+    this.setState({
+      mobileMenuIsOpen: false
+    })
+  }
+
+  handleToggleMobilMenu = () => {
     this.setState({
       mobileMenuIsOpen: !this.state.mobileMenuIsOpen
     })
@@ -24,28 +26,24 @@ class Header extends Component {
 
   render() {
     const {mobileMenuIsOpen} = this.state
-    const classNameBurgerIcon = classNames('Header-burger-icon', {change: mobileMenuIsOpen})
+    const burgerIconClassName = classNames('Header-burger-icon', {change: mobileMenuIsOpen})
+    const mobileMenuClassName = classNames('MobileMenu', {visible: mobileMenuIsOpen})
 
     return (
       <nav className="Header-nav">
         <div className="Header-logo">
-          <a onClick={scrollToWelcome}>
+          <a onClick={this.handleScrollToWelcome}>
             <span>Arbovert</span>
           </a>
         </div>
         <div className="Header-spacer" />
         <Mobile>
-          <div className={classNameBurgerIcon} onClick={this.handleMobilMenu}>
+          <div className={burgerIconClassName} onClick={this.handleToggleMobilMenu}>
             <div className="bar1"></div>
             <div className="bar2"></div>
             <div className="bar3"></div>
           </div>
-          <Transition in={this.state.mobileMenuIsOpen} timeout={300} >
-            {(state) => {
-              const menuClassName = classNames('MobileMenu', {visible: state === 'entered'})
-              return <MobileMenu menuClassName={menuClassName} onHandleMobilMenu={this.handleMobilMenu}/>
-            }}
-          </Transition>
+          <MobileMenu menuClassName={mobileMenuClassName} onHandleMobilMenu={this.handleToggleMobilMenu}/>
         </Mobile>
         <Desktop>
           <div className="Header-menu">

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import PropTypes from 'prop-types'
 import Gallery from 'react-photo-gallery'
 import Lightbox from 'react-images'
 
@@ -60,3 +61,7 @@ class ReferencePhotos extends Component {
 }
 
 export default ReferencePhotos
+
+ReferencePhotos.propTypes = {
+  photos: PropTypes.array.isRequired
+}
