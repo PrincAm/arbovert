@@ -12,7 +12,7 @@ class Header extends Component {
   }
 
   handleScrollToWelcome = () => {
-    scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: "easeInOutQuad", offset: -70})
+    scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: "easeInOutQuad", offset: -80})
     this.setState({
       mobileMenuIsOpen: false
     })
@@ -26,7 +26,7 @@ class Header extends Component {
 
   render() {
     const {mobileMenuIsOpen} = this.state
-    const burgerIconClassName = classNames('Header-burger-icon', {change: mobileMenuIsOpen})
+    const burgerIconClassName = classNames('Header-burger', {change: mobileMenuIsOpen})
     const mobileMenuClassName = classNames('MobileMenu', {visible: mobileMenuIsOpen})
 
     return (
@@ -40,9 +40,9 @@ class Header extends Component {
           <div className="Header-spacer" />
           <Mobile>
             <div className={burgerIconClassName} onClick={this.handleToggleMobilMenu}>
-              <div className="bar1"></div>
-              <div className="bar2"></div>
-              <div className="bar3"></div>
+              <div className="Header-burger-bar1"></div>
+              <div className="Header-burger-bar2"></div>
+              <div className="Header-burger-bar3"></div>
             </div>
             <MobileMenu menuClassName={mobileMenuClassName} onHandleMobilMenu={this.handleToggleMobilMenu}/>
           </Mobile>
@@ -52,7 +52,7 @@ class Header extends Component {
                 <li>
                   <Link activeClass="active" className="Header-welcome" to="welcome"
                         spy={true} smooth={"easeInOutQuad"} duration={2000}
-                        delay={50} offset={-70} onClick={this.handleOpenMenu}>Domů</Link>
+                        delay={50} offset={-80} onClick={this.handleOpenMenu}>Domů</Link>
                 </li>
                 <li>
                   <Link activeClass="active" className="Header-service" to="service"

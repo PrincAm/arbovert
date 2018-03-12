@@ -6,6 +6,7 @@
 @media (max-width: 767px) {
     .Service {
         font-size: 0.5em;
+        text-align: center;
     }
 }
 
@@ -15,10 +16,6 @@
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.Service-arbo {
-    background-position: 200px;
 }
 
 .Service-work {
@@ -34,17 +31,11 @@
 }
 
 .Service-box {
+    padding-top: 20px;
     min-height: 100vh;
     width: 50%;
     min-width: 50vw;
-    background-color: rgba(0,0,0,0.9);
-}
-
-@media (max-width: 767px) {
-    .Service-box {
-        width: 100%;
-        background-color: rgba(0,0,0,0.5);
-    }
+    background-color: rgba(0,0,0,0.8);
 }
 
 .Service-box h1 {
@@ -58,6 +49,24 @@
     font-size: 1.4em;
 }
 
+@media (max-width: 767px) {
+    .Service-box {
+        width: 100%;
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Service-arbo h1 {
+        padding: 70px 0 0 0;
+    }
+
+    .Service-work h1 {
+        padding: 0;
+    }
+}
+
 .Service-go-to-contact {
     display: flex;
     justify-content: flex-end;
@@ -66,12 +75,18 @@
 .Service-go-to-contact button {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border: none;
+    border: 2px solid #ECE9E9;
     border-radius: 0px;
     font-family: Arial;
-    color: #ffffff;
+    color: #ECE9E9;
     font-size: 20px;
-    background: #1d2120;
+    background: none;
     padding: 9px 20px 10px 20px;
     text-decoration: none;
+}
+
+.Service-go-to-contact button:hover {
+    cursor: pointer;
+    background: #ECE9E9;
+    color: #000000;
 }

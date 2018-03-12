@@ -7,7 +7,7 @@
 .Header-nav {
     background: rgba(0, 0, 0, 0.7);
     height: 80px;
-    color: #ffffff;
+    color: #ECE9E9;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -54,7 +54,7 @@
     text-decoration: none;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(to right, red, red 50%, #ffffff 50%);
+    background-image: linear-gradient(to right, #C21F39, #C21F39 50%, #ECE9E9 50%);
     background-size: 200% 100%;
     background-position: 100%;
 }
@@ -65,11 +65,11 @@
 }
 
 .Header-menu .active {
-    color: red;
+    color: #C21F39;
     -webkit-text-fill-color: unset;
 }
 
-.Header-burger-icon {
+.Header-burger {
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -78,7 +78,9 @@
     padding-right: 20px;
 }
 
-.bar1, .bar2, .bar3 {
+.Header-burger-bar1,
+.Header-burger-bar2,
+.Header-burger-bar3 {
     width: 35px;
     height: 5px;
     background-color: #FFFFFF;
@@ -86,16 +88,16 @@
     transition: 0.4s;
 }
 
-.change .bar1 {
+.change .Header-burger-bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.change .bar2 {
+.change .Header-burger-bar2 {
     opacity: 0;
 }
 
-.change .bar3 {
+.change .Header-burger-bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
