@@ -1,0 +1,92 @@
+.Service {
+    color: #ECE9E9;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .Service {
+        font-size: 0.5em;
+        text-align: center;
+    }
+}
+
+.Service-arbo,
+.Service-work {
+    width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Service-work {
+    background-position: center;
+}
+
+.Service-arbo {
+    background-image: url('../assets/arbo.jpg');
+}
+
+.Service-work {
+    background-image: url('../assets/upwork.jpg');
+}
+
+.Service-box {
+    padding-top: 20px;
+    min-height: 100vh;
+    width: 50%;
+    min-width: 50vw;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.Service-box h1 {
+    margin-top: 0px;
+    padding: 70px 0 0 70px;
+}
+
+.Service-box div {
+    padding: 10px 40px;
+    line-height: 1.5em;
+    font-size: 1.4em;
+}
+
+@media (max-width: 767px) {
+    .Service-box {
+        width: 100%;
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Service-arbo h1 {
+        padding: 70px 0 0 0;
+    }
+
+    .Service-work h1 {
+        padding: 0;
+    }
+}
+
+.Service-go-to-contact {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Service-go-to-contact button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border: 2px solid #ECE9E9;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ECE9E9;
+    font-size: 20px;
+    background: none;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.Service-go-to-contact button:hover {
+    cursor: pointer;
+    background: #ECE9E9;
+    color: #000000;
+}
