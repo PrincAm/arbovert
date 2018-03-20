@@ -1,24 +1,28 @@
-import photo1 from '../assets/photos/arbovert1.jpg'
-import photo2 from '../assets/photos/arbovert2.jpg'
-import photo3 from '../assets/photos/arbovert3.jpg'
-import photo4 from '../assets/photos/arbovert4.jpg'
-import photo5 from '../assets/photos/arbovert5.jpg'
-import photo6 from '../assets/photos/arbovert6.jpg'
-import photo7 from '../assets/photos/arbovert7.jpg'
-import photo8 from '../assets/photos/arbovert8.jpg'
-import photo9 from '../assets/photos/arbovert9.jpg'
-import photo10 from '../assets/photos/arbovert10.jpg'
-import photo11 from '../assets/photos/arbovert11.jpg'
-import photo12 from '../assets/photos/arbovert12.jpg'
-import photo13 from '../assets/photos/arbovert13.jpg'
-import photo14 from '../assets/photos/arbovert14.jpg'
-import photo15 from '../assets/photos/arbovert15.jpg'
-import photo16 from '../assets/photos/arbovert16.jpg'
-import photo17 from '../assets/photos/arbovert17.jpg'
-import photo18 from '../assets/photos/arbovert18.jpg'
-import photo19 from '../assets/photos/arbovert19.jpg'
-import photo20 from '../assets/photos/arbovert20.jpg'
-import photo21 from '../assets/photos/arbovert21.jpg'
+import arbo1 from '../assets/photos/arbo/arbo1.jpg'
+import arbo2 from '../assets/photos/arbo/arbo2.jpg'
+import arbo3 from '../assets/photos/arbo/arbo3.jpg'
+import arbo4 from '../assets/photos/arbo/arbo4.jpg'
+import arbo5 from '../assets/photos/arbo/arbo5.jpg'
+import arbo6 from '../assets/photos/arbo/arbo6.jpg'
+import arbo7 from '../assets/photos/arbo/arbo7.jpg'
+import arbo8 from '../assets/photos/arbo/arbo8.jpg'
+import arbo9 from '../assets/photos/arbo/arbo9.jpg'
+import arbo10 from '../assets/photos/arbo/arbo10.jpg'
+import arbo11 from '../assets/photos/arbo/arbo11.jpg'
+import arbo12 from '../assets/photos/arbo/arbo12.jpg'
+
+import upwork1 from '../assets/photos/upwork/upwork1.jpg'
+import upwork2 from '../assets/photos/upwork/upwork2.jpg'
+import upwork3 from '../assets/photos/upwork/upwork3.jpg'
+import upwork4 from '../assets/photos/upwork/upwork4.jpg'
+import upwork5 from '../assets/photos/upwork/upwork5.jpg'
+import upwork6 from '../assets/photos/upwork/upwork6.jpg'
+import upwork7 from '../assets/photos/upwork/upwork7.jpg'
+import upwork8 from '../assets/photos/upwork/upwork8.jpg'
+import upwork9 from '../assets/photos/upwork/upwork9.jpg'
+import upwork10 from '../assets/photos/upwork/upwork10.jpg'
+import upwork11 from '../assets/photos/upwork/upwork11.jpg'
+import upwork12 from '../assets/photos/upwork/upwork12.jpg'
 
 const sizes = [
 	'(min-width: 480px) 50vw',
@@ -28,133 +32,139 @@ const sizes = [
 
 export const PHOTOS1 = [
   {
-    src: photo1,
-    width: 641,
-    height: 854,
-    sizes
+    src: arbo1,
+    width: 3,
+    height: 4
   }
   ,
   {
-    src: photo2,
-    width: 641,
-    height: 854,
-    sizes
+    src: arbo2,
+    width: 3,
+    height: 4
   },
   {
-    src: photo3,
-    width: 750,
-    height: 1000,
-    sizes
+    src: arbo3,
+    width: 3,
+    height: 4
   },
   {
-    src: photo4,
-    width: 750,
-    height: 1000,
-    sizes
+    src: arbo4,
+    width: 3,
+    height: 4
   },
   {
-    src: photo5,
-    width: 750,
-    height: 1000,
-    sizes
+    src: arbo5,
+    width: 3,
+    height: 4
   },
   {
-    src: photo6,
-    width: 1000,
-    height: 750,
-    sizes
+    src: arbo6,
+    width: 4,
+    height: 4
   },
   {
-    src: photo7,
-    width: 750,
-    height: 1000,
-    sizes
+    src: arbo7,
+    width: 3,
+    height: 4
   },
   {
-    src: photo8,
-    width: 750,
-    height: 1000,
-    sizes
+    src: arbo8,
+    width: 3,
+    height: 4
   },
   {
-    src: photo9,
-    width: 750,
-    height: 1000,
-    sizes
+    src: arbo9,
+    width: 4,
+    height: 3
   },
   {
-    src: photo10,
-    width: 750,
-    height: 1000,
-    sizes
+    src: arbo10,
+    width: 4,
+    height: 3
   },
   {
-    src: photo11,
-    width: 1000,
-    height: 750,
-    sizes
+    src: arbo11,
+    width: 3,
+    height: 4
+  },
+  {
+    src: arbo12,
+    width: 3,
+    height: 4
   }
 ]
 
 export const PHOTOS2 = [
   {
-    src: photo12,
-    width: 1000,
-    height: 750,
+    src: upwork1,
+    width: 3,
+    height: 4,
     sizes
   },
   {
-    src: photo13,
-    width: 750,
-    height: 1000,
+    src: upwork2,
+    width: 3,
+    height: 4,
     sizes
   },
   {
-    src: photo14,
-    width: 750,
-    height: 1000,
+    src: upwork3,
+    width: 16,
+    height: 9,
     sizes
   },
   {
-    src: photo15,
-    width: 750,
-    height: 1000,
+    src: upwork4,
+    width: 3,
+    height: 4,
     sizes
   },
   {
-    src: photo16,
-    width: 750,
-    height: 1000,
+    src: upwork5,
+    width: 3,
+    height: 4,
     sizes
   },
   {
-    src: photo17,
-    width: 750,
-    height: 1000,
+    src: upwork6,
+    width: 3,
+    height: 4,
     sizes
   },
   {
-    src: photo18,
-    width: 1994,
-    height: 2592,
+    src: upwork7,
+    width: 3,
+    height: 4,
     sizes
   },
   {
-    src: photo19,
-    width: 750,
-    height: 1000,
+    src: upwork8,
+    width: 3,
+    height: 4,
     sizes
   },
   {
-    src: photo20,
-    width: 750,
-    height: 1000,
+    src: upwork9,
+    width: 3,
+    height: 4,
     sizes
   },
   {
-    src: photo21,
-    width: 750,
-    height: 1000,
+    src: upwork10,
+    width: 3,
+    height: 4,
+    sizes
+  },
+  {
+    src: upwork11,
+    width: 3,
+    height: 4,
+    sizes
+  },
+  {
+    src: upwork12,
+    width: 4,
+    height: 3,
     sizes
   }
 ]
