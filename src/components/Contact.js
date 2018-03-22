@@ -26,6 +26,16 @@ const Contact = () => (
         </div>
       </div>
       */}
+      <div style={{padding: '50px', textAlign: 'center'}}>
+        <a href="https://facebook.com" class="icon-button facebook">
+          <i class="icon-facebook" />
+          <span />
+        </a>
+        <a href="https://plus.google.com" class="icon-button google-plus">
+          <i class="icon-google-plus" />
+          <span />
+        </a>
+      </div>
     </div>
   </div>
 )
