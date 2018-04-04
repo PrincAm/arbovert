@@ -54,7 +54,7 @@
     .Contact-content {
         margin-top: 0;
         padding: 0;
-        height: 100%;
+        eight: 100vh;
         text-align: center;
         background: rgba(0,0,0,0.5);
         flex-direction: column;
@@ -109,9 +109,7 @@
     border-radius: 3.6rem;
     margin: -1.8rem;
 }
-.twitter span {
-    background-color: #4099ff;
-}
+
 .facebook span {
     background-color: #3B5998;
 }
@@ -133,7 +131,7 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
     width: 3.6rem;
-    z-index: 10;
+    z-index: 0;
 }
 .icon-button .icon-facebook {
     color: #3B5998;
@@ -144,4 +142,5 @@
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-google-plus {
     color: white;
+    z-index: 1;
 }
