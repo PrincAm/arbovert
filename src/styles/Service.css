@@ -58,12 +58,9 @@
         align-items: center;
     }
 
-    .Service-arbo h1 {
-        padding: 70px 0 0 0;
-    }
-
+    .Service-arbo h1,
     .Service-work h1 {
-        padding: 0;
+        padding: 70px 0 0 0;
     }
 }
 
