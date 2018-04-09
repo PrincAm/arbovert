@@ -18,15 +18,16 @@ const Welcome = () =>
       <h1>Proč my?</h1>
     </div>
     <div className="Welcome-slogan">
-      <span><span className="Welcome-hashTag">#</span>individualni pristup </span>
-      <span><span className="Welcome-hashTag">#</span>kvalitni materialy </span>
-      <span><span className="Welcome-hashTag">#</span>flexibilita</span>
+      <span><span className="Welcome-hashTag">#</span>stromy </span>
+      <span><span className="Welcome-hashTag">#</span>výškové práce </span>
+      <span><span className="Welcome-hashTag">#</span>nadšení</span>
     </div>
-    <div style={{textAlign: "center", fontSize: "0.8em", paddingTop: '20px'}}>
-      Jsme firma, která ke každému zákazníkovi přístupuje  a jsme velice flexibilní i v havarijních situacích. Používáme ty
-      nejkvalitnější materiály které máme roky ověřeny od našich dodavatelů. Profesionalita a odbornost našich lidí
-      je to, na čem zakládáme a našim cílem je se zdokonalovat a zlepšovat v ostatních pracích, u kterých ostatní tápají.
-      Používáme ty nejkvalitnější materiály které máme roky ověřeny od našich dodavatelů.
+    <div className="Welcome-message">
+      Náš Arbovert se již od roku 2013 zabývá arboristikou, kompletní péčí o dřeviny a výškovými pracemi všeho druhu.
+      Pokud Vás tíží nebezpečně přerostlé stromy, opadávající omýtka, dotěrní holubi nebo strom trefený bleskem,
+      zavolejte a my s vámi váš problém rádi probereme. Klidně se na nás obraťte, ikdyž se jedná o havarijní situace v
+      nepopulární čas. Snad ani nemusíme zmiňovat, že nezávazné nacenění práce je samozřejmostí. Zakládáme si na
+      odbornosti našich lidí a našim cílem je se zdokonalovat a zlepšovat v pracích, u kterých ostatní tápají.
     </div>
   </div>
 </div>

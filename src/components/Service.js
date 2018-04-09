@@ -20,8 +20,8 @@ const Service = () => {
         <div className="Service-box">
           <h1>Arboristika</h1>
           <div>
-            V arboristice provádíme všechny práce od rizikového kácení, přes odborné ošetřování stromů a zajišťování
-            stromů, prořezávky ovocných stromů i likvidace dřevní hmoty.
+            V arboristice provádíme kompletní péče o dřeviny od rizikového kácení, přes odborné ošetřování a
+            zajišťování stromů, prořezávky ovocných stromů, až po likvidaci dřevní hmoty.
           </div>
             {contactButton}
         </div>
@@ -30,9 +30,9 @@ const Service = () => {
         <div className="Service-box">
           <h1>Výškové práce</h1>
           <div>
-            Ve výškových pracích pokrýváme podstatě všechna povolání. Jedná se především o opravy fasád, kompletní servis
-            proti ptactvu, drobné klempířské a pokrývačské opravy, tlakové mytí fasád, mytí oken, opravy spár panelových
-            domů a jiné.
+            Ve výškových pracích pokrýváme vpodstatě všechna povolání. Jedná se především o kompletní opravy fasád,
+            sítě a hroty proti holubům, drobné klempířské a pokrývačské opravy, tlakové mytí fasád, mytí oken,
+            opravy a tmelení spár panelových domů a jiné.
           </div>
           {contactButton}
         </div>

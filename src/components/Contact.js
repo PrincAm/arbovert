@@ -24,7 +24,7 @@ const Contact = () => (
         </div>
       </div>
       <div>
-        Pusobime v Praze a stredoceskem kraji
+        Působíme v Praze a středočeském kraji.
       </div>
       <div className="Contact-socialMedia">
         <a href="https://facebook.com" className="icon-button facebook">

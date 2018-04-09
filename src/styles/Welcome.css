@@ -82,6 +82,12 @@
     color: #C21F39;
 }
 
+.Welcome-message {
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+
 .Welcome-bg,
 .Welcome-bg:after {
     position: fixed;
