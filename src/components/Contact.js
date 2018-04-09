@@ -20,7 +20,7 @@ const Contact = () => (
           </div>
         </div>
         <div className="Contact-map">
-          <img src={map} />
+          <img src={map} alt="map of czech republic" />
         </div>
       </div>
       <div>
