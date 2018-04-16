@@ -16,7 +16,7 @@ const Contact = () => (
           </div>
           <div>
             <a href="tel:+420739969933">(+420) 739 969 933</a><br/>
-            <a href="mailto:lukas@arbovert.cz">lukas@arbovert.cz</a>
+            <a href="mailto:lukaskacer@arbovert.cz">lukaskacer@arbovert.cz</a>
           </div>
         </div>
         <div className="Contact-map">

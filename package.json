@@ -1,7 +1,6 @@
 {
   "name": "arbovert",
   "version": "0.1.0",
-  "homepage": "https://princam.github.io/arbovert",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.5",
