@@ -123,7 +123,6 @@
 
 .Welcome-bg span:nth-child(1) {
     background-image: url('../assets/background1.jpg');
-    background-position: 20% 50%;
 }
 
 .Welcome-bg span:nth-child(2) {
