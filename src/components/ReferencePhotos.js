@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-import Gallery from 'eact-photo-gallery'
+import Gallery from 'react-photo-gallery'
 import Lightbox from 'react-images'
 
 class ReferencePhotos extends Component {
