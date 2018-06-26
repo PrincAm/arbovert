@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-import Gallery from 'react-photo-gallery'
+import Gallery from 'eact-photo-gallery'
 import Lightbox from 'react-images'
 
 class ReferencePhotos extends Component {
@@ -11,8 +11,6 @@ class ReferencePhotos extends Component {
   }
 
   openLightbox = (_, obj) => {
-    console.log('openLightbox')
-    console.log(obj.index)
     this.setState({
       currentImage: obj.index,
       lightboxIsOpen: true,
