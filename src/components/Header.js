@@ -3,6 +3,7 @@ import {Link, scroller} from 'react-scroll'
 import classNames from 'classnames'
 import {Mobile, Desktop} from './App'
 import MobileMenu from './MobileMenu'
+import logo from '../assets/arbovert_logo.png'
 import '../styles/Header.css'
 
 class Header extends Component {
@@ -34,7 +35,7 @@ class Header extends Component {
         <nav className="Header-nav">
           <div className="Header-logo">
             <a onClick={this.handleScrollToWelcome}>
-              <span>Arbovert</span>
+              <img src={logo} style={{height: "100%"}}/>
             </a>
           </div>
           <div className="Header-spacer" />

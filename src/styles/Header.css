@@ -25,7 +25,7 @@
 }
 
 .Header-logo img {
-    width: 80px;
+    width: 260px;
 }
 
 .Header-name {
@@ -37,7 +37,6 @@
     display: flex;
     align-items: center;
 }
-
 
 .Header-menu ul {
     display: flex;
@@ -55,23 +54,12 @@
     cursor: pointer;
 }
 
-.Header-menu a {
-    /*text-decoration: none;*/
-    /*-webkit-background-clip: text;*/
-    /*-webkit-text-fill-color: transparent;*/
-    /*background-image: linear-gradient(to right, #C21F39, #C21F39 50%, #ECE9E9 50%);*/
-    /*background-size: 200% 100%;*/
-    /*background-position: 100%;*/
-}
-
 .Header-menu a:hover {
     transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
-    /*background-position: 0%;*/
 }
 
 .Header-menu .active {
     color: #C21F39;
-    /*-webkit-text-fill-color: unset;*/
 }
 
 .Header-burger {
@@ -105,4 +93,10 @@
 .change .Header-burger-bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media (max-width: 767px) {
+    .Header-logo img {
+      width: 200px;
+    }
 }
