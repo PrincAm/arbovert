@@ -31,10 +31,6 @@ const Contact = () => (
           <i className="icon-facebook" />
           <span />
         </a>
-        <a href="https://plus.google.com" className="icon-button google-plus">
-          <i className="icon-google-plus" />
-          <span />
-        </a>
       </div>
     </div>
   </div>
