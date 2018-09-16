@@ -115,7 +115,7 @@ import upwork12_1024 from '../assets/photos/upwork/upwork12_ziqhpe_c_scale,w_102
 export const PHOTOS1 = [
   {
     sizes: ["(max-width: 511px) 100vw", "511px"],
-    srcset: [
+    srcSet: [
       `${arbo1_200} 200w`,
       `${arbo1_511} 511w`
     ],
@@ -127,7 +127,7 @@ export const PHOTOS1 = [
   ,
   {
     sizes: ["(max-width: 511px) 100vw", "511px"],
-    srcset: [
+    srcSet: [
       `${arbo2_200} 200w`,
       `${arbo2_511} 511w`
     ],
@@ -138,7 +138,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ["(max-width: 511px) 100vw", "511px"],
-    srcset: [
+    srcSet: [
       `${arbo3_200} 200w`,
       `${arbo3_362} 362w`,
       `${arbo3_511} 511w`
@@ -150,7 +150,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ["(max-width: 576px) 100vw", "576px"],
-    srcset: [
+    srcSet: [
       `${arbo4_200} 200w`,
       `${arbo4_263} 263w`,
       `${arbo4_317} 317w`,
@@ -168,7 +168,7 @@ export const PHOTOS1 = [
       "(max-width: 576px) 100vw",
       "576px"
     ],
-    srcset: [
+    srcSet: [
       `${arbo5_200} 200w`,
       `${arbo5_262} 262w`,
       `${arbo5_315} 315w`,
@@ -187,7 +187,7 @@ export const PHOTOS1 = [
       "(max-width: 576px) 100vw",
       "576px"
     ],
-    srcset: [
+    srcSet: [
       `${arbo6_200} 200w`,
       `${arbo6_278} 278w`,
       `${arbo6_344} 344w`,
@@ -204,7 +204,7 @@ export const PHOTOS1 = [
       "(max-width: 576px) 100vw",
       "576px"
     ],
-    srcset: [
+    srcSet: [
       `${arbo7_200} 200w`,
       `${arbo7_274} 274w`,
       `${arbo7_338} 338w`,
@@ -221,7 +221,7 @@ export const PHOTOS1 = [
       "(max-width: 576px) 100vw",
       "576px"
     ],
-    srcset: [
+    srcSet: [
       `${arbo8_200} 200w`,
       `${arbo8_273} 273w`,
       `${arbo8_335} 335w`,
@@ -238,7 +238,7 @@ export const PHOTOS1 = [
       "(max-width: 1024px) 100vw",
       "1024px",
     ],
-    srcset: [
+    srcSet: [
       `${arbo9_200} 200w`,
       `${arbo9_338} 338w`,
       `${arbo9_411} 411w`,
@@ -257,7 +257,7 @@ export const PHOTOS1 = [
       "(max-width: 1024px) 100vw",
       "1024px",
     ],
-    srcset: [
+    srcSet: [
       `${arbo10_200} 200w`,
       `${arbo10_350} 350w`,
       `${arbo10_460} 460w`,
@@ -276,7 +276,7 @@ export const PHOTOS1 = [
       "(max-width: 576px) 100vw",
       "576px",
     ],
-    srcset: [
+    srcSet: [
       `${arbo11_200} 200w`,
       `${arbo11_270} 270w`,
       `${arbo11_330} 3300w`,
@@ -293,7 +293,7 @@ export const PHOTOS1 = [
       "(max-width: 576px) 100vw",
       "576px",
     ],
-    srcset: [
+    srcSet: [
       `${arbo12_200} 200w`,
       `${arbo12_319} 319w`,
       `${arbo12_576} 576w`
@@ -308,7 +308,7 @@ export const PHOTOS1 = [
 export const PHOTOS2 = [
   {
     sizes: ["(max-width: 511px) 100vw", "511px"],
-    srcset: [
+    srcSet: [
       `${upwork1_200} 200w`,
       `${upwork1_511} 511w`
     ],
@@ -319,7 +319,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 511px) 100vw", "511px"],
-    srcset: [
+    srcSet: [
       `${upwork2_200} 200w`,
       `${upwork2_350} 350w`,
       `${upwork2_511} 511w`
@@ -331,7 +331,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 1024) 100vw", "1024px"],
-    srcset: [
+    srcSet: [
       `${upwork3_200} 200w`,
       `${upwork3_450} 450w`,
       `${upwork3_647} 647w`,
@@ -344,7 +344,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 511) 100vw", "511px"],
-    srcset: [
+    srcSet: [
       `${upwork4_200} 200w`,
       `${upwork4_511} 511w`
     ],
@@ -355,7 +355,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 511) 100vw", "511px"],
-    srcset: [
+    srcSet: [
       `${upwork5_200} 200w`,
       `${upwork5_511} 511w`
     ],
@@ -366,7 +366,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 576) 100vw", "576px"],
-    srcset: [
+    srcSet: [
       `${upwork6_200} 200w`,
       `${upwork6_318} 318w`,
       `${upwork6_576} 576w`
@@ -378,7 +378,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 576) 100vw", "576px"],
-    srcset: [
+    srcSet: [
       `${upwork7_200} 200w`,
       `${upwork7_576} 576w`
     ],
@@ -389,7 +389,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 576) 100vw", "576px"],
-    srcset: [
+    srcSet: [
       `${upwork8_200} 200w`,
       `${upwork8_375} 375w`,
       `${upwork8_576} 576w`
@@ -401,7 +401,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 576) 100vw", "576px"],
-    srcset: [
+    srcSet: [
       `${upwork9_200} 200w`,
       `${upwork9_576} 576w`
     ],
@@ -412,7 +412,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 576) 100vw", "576px"],
-    srcset: [
+    srcSet: [
       `${upwork10_200} 200w`,
       `${upwork10_375} 375w`,
       `${upwork10_576} 576w`
@@ -424,7 +424,7 @@ export const PHOTOS2 = [
   },
   {
     sizes: ["(max-width: 576) 100vw", "576px"],
-    srcset: [
+    srcSet: [
       `${upwork11_200} 200w`,
       `${upwork11_576} 576w`
     ],
@@ -438,7 +438,7 @@ export const PHOTOS2 = [
       "(max-width: 1024) 100vw",
       "1024px"
     ],
-    srcset: [
+    srcSet: [
       `${upwork12_200} 200w`,
       `${upwork12_447} 447w`,
       `${upwork12_641} 641w`,
