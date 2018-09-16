@@ -35,7 +35,7 @@ class Header extends Component {
         <nav className="Header-nav">
           <div className="Header-logo">
             <a onClick={this.handleScrollToWelcome}>
-              <img src={logo} style={{height: "100%"}}/>
+              <img src={logo} alt="logo arbovert"/>
             </a>
           </div>
           <div className="Header-spacer" />

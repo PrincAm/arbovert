@@ -26,6 +26,7 @@
 
 .Header-logo img {
     width: 260px;
+    height: 100%;
 }
 
 .Header-name {

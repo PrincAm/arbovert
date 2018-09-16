@@ -133,7 +133,7 @@
     }
 }
 
-@media (max-width: 774px) {
+@media (max-width: 767px) {
     .Welcome {
         padding: 0;
         font-size: 0.6em;
