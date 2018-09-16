@@ -10,8 +10,7 @@
     "react-photo-gallery": "^6.0.22",
     "react-responsive": "^4.0.4",
     "react-scroll": "^1.7.5",
-    "react-scrolllock": "^2.0.0",
-    "webfontloader": "^1.6.28"
+    "react-scrolllock": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
