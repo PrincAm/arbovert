@@ -1,5 +1,7 @@
 import React from 'react'
 import map from '../assets/map.png'
+import fbicon from '../assets/fbicon.png'
+
 import '../styles/Contact.css'
 
 const Contact = () => (
@@ -27,9 +29,8 @@ const Contact = () => (
         Působíme v Praze a středočeském kraji
       </div>
       <div className="Contact-socialMedia">
-        <a href="https://www.facebook.com/arbovertcz" className="icon-button facebook">
-          <i className="icon-facebook" />
-          <span />
+        <a href="https://www.facebook.com/arbovertcz" target="_blank">
+          <img src={fbicon} alt="facebook" />
         </a>
       </div>
     </div>
