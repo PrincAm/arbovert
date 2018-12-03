@@ -4,7 +4,6 @@ import Gallery from 'react-photo-gallery'
 import Lightbox from 'react-images'
 
 class ReferencePhotos extends Component {
-
   state = {
     currentImage: 0,
     lightboxIsOpen: false
@@ -13,7 +12,7 @@ class ReferencePhotos extends Component {
   openLightbox = (_, obj) => {
     this.setState({
       currentImage: obj.index,
-      lightboxIsOpen: true,
+      lightboxIsOpen: true
     })
   }
 
@@ -35,7 +34,7 @@ class ReferencePhotos extends Component {
       currentImage: this.state.currentImage + 1
     })
   }
-  
+
   render() {
     const {photos} = this.props
     const {currentImage, lightboxIsOpen} = this.state

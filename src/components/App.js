@@ -15,7 +15,7 @@ export const Desktop = (props) => <Responsive {...props} minWidth={767} />
 const App = () => (
   <div className="App">
     <Header />
-    
+
     <Element name="welcome">
       <Welcome />
     </Element>
@@ -31,9 +31,9 @@ const App = () => (
     <Element name="contact">
       <Contact />
     </Element>
-    
+
     <Footer />
-  </div>     
+  </div>
 )
 
 export default App

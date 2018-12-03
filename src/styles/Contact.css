@@ -1,37 +1,37 @@
 .Contact {
-    padding: 50px 50px;
-    height: 100%;
-    width: 100vw;
-    min-height: 560px;
-    position: relative;
-    color: #ECE9E9;
+  padding: 50px 50px;
+  height: 100%;
+  width: 100vw;
+  min-height: 560px;
+  position: relative;
+  color: #ece9e9;
 }
 
 .Contact-content {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.6em;
-    background: rgba(0,0,0,0.5);
-    padding: 30px 30px 30px 30px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px 30px 30px 30px;
 }
 
 .Contact-content a {
-    text-decoration: none;
-    color: #ECE9E9;
+  text-decoration: none;
+  color: #ece9e9;
 }
 
 .Contact-upperDiv {
-    display: flex;
+  display: flex;
 }
 
 .Contact-inner-div {
-    width: 50vw;
+  width: 50vw;
 }
 
 .Contact-map {
-    width: 50vw;
-    font-size: 0.8em;
+  width: 50vw;
+  font-size: 0.8em;
 }
 
 .Contact-map img {
@@ -39,60 +39,60 @@
 }
 
 .Contact-companyName {
-    color: #C21F39;
-    font-weight: 900;
+  color: #c21f39;
+  font-weight: 900;
 }
 
 .Contact-form {
-    display: flex;
+  display: flex;
 }
 
 .Contact-form,
 .Contact-info {
-    width: 45vw;
+  width: 45vw;
 }
 
 .Contact-socialMedia {
-    padding: 50px;
-    text-align: center;
+  padding: 50px;
+  text-align: center;
 }
 
 .Contact-socialMedia img {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 @media (max-width: 767px) {
-    .Contact {
-        padding: 0;
-        font-size: 0.5em;
-        background: center no-repeat url('../assets/background1.jpg');
-    }
+  .Contact {
+    padding: 0;
+    font-size: 0.5em;
+    background: center no-repeat url('../assets/background1.jpg');
+  }
 
-    .Contact-content {
-        margin-top: 0;
-        height: 100%;
-        min-height: 100vh;
-        text-align: center;
-        background: rgba(0,0,0,0.5);
-        flex-direction: column;
-        align-items: center;
-    }
+  .Contact-content {
+    margin-top: 0;
+    height: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .Contact-content h1 {
-        padding-top: 20px;
-    }
+  .Contact-content h1 {
+    padding-top: 20px;
+  }
 
-    .Contact-inner-div,
-    .Contact-map {
-        width: 100vw;
-    }
+  .Contact-inner-div,
+  .Contact-map {
+    width: 100vw;
+  }
 
-    .Contact-map {
-        padding: 20px 0;
-    }
+  .Contact-map {
+    padding: 20px 0;
+  }
 
-    .Contact-upperDiv {
-        flex-direction: column;
-    }
+  .Contact-upperDiv {
+    flex-direction: column;
+  }
 }

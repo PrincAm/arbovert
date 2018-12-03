@@ -19,6 +19,7 @@
     "eslint-plugin-react": "^6.10.3",
     "eslint-plugin-standard": "^3.0.1",
     "gh-pages": "^1.1.0",
+    "prettier": "1.15.3",
     "react-scripts": "^0.9.5"
   },
   "scripts": {
@@ -28,6 +29,16 @@
     "eject": "react-scripts eject",
     "lint": "eslint src",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "precommit": "lint-staged",
+    "format": "prettier --write './**/*.{js,json,css,md}'"
+  },
+  "lint-staged": {
+    "**/*.{json,css,md}": [
+      "prettier -l"
+    ],
+    "src/**/*.js": [
+      "eslint"
+    ]
   }
 }

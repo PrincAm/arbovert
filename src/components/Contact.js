@@ -10,14 +10,11 @@ const Contact = () => (
       <h1>Kontaktujte nás</h1>
       <div className="Contact-upperDiv">
         <div className="Contact-inner-div">
-          <div className="Contact-companyName">
-            Arbovert
-          </div>
+          <div className="Contact-companyName">Arbovert</div>
+          <div>Lukáš Kačer</div>
           <div>
-            Lukáš Kačer
-          </div>
-          <div>
-            <a href="tel:+420739969933">(+420) 739 969 933</a><br/>
+            <a href="tel:+420739969933">(+420) 739 969 933</a>
+            <br />
             <a href="mailto:lukaskacer@arbovert.cz">lukaskacer@arbovert.cz</a>
           </div>
         </div>
@@ -25,9 +22,7 @@ const Contact = () => (
           <img src={map} alt="map of czech republic" />
         </div>
       </div>
-      <div>
-        Působíme v Praze a středočeském kraji
-      </div>
+      <div>Působíme v Praze a středočeském kraji</div>
       <div className="Contact-socialMedia">
         <a href="https://www.facebook.com/arbovertcz" target="_blank">
           <img src={fbicon} alt="facebook" />
