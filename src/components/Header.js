@@ -86,7 +86,7 @@ class Header extends Component {
                     duration={2000}
                     delay={50}
                     onClick={this.handleOpenMenu}>
-                    Reference
+                    Fotky práce
                   </Link>
                 </li>
                 <li>

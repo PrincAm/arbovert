@@ -1,13 +1,3 @@
-import arbo1_200 from '../assets/photos/arbo/arbo1_pqngpu_c_scale,w_200.jpg'
-import arbo1_511 from '../assets/photos/arbo/arbo1_pqngpu_c_scale,w_511.jpg'
-
-import arbo2_200 from '../assets/photos/arbo/arbo2_v2sefq_c_scale,w_200.jpg'
-import arbo2_511 from '../assets/photos/arbo/arbo2_v2sefq_c_scale,w_511.jpg'
-
-import arbo3_200 from '../assets/photos/arbo/arbo3_cd2aph_c_scale,w_200.jpg'
-import arbo3_362 from '../assets/photos/arbo/arbo3_cd2aph_c_scale,w_362.jpg'
-import arbo3_511 from '../assets/photos/arbo/arbo3_cd2aph_c_scale,w_511.jpg'
-
 import arbo4_200 from '../assets/photos/arbo/arbo4_oyptwm_c_scale,w_200.jpg'
 import arbo4_263 from '../assets/photos/arbo/arbo4_oyptwm_c_scale,w_263.jpg'
 import arbo4_317 from '../assets/photos/arbo/arbo4_oyptwm_c_scale,w_317.jpg'
@@ -67,71 +57,111 @@ import arbo12_200 from '../assets/photos/arbo/arbo12_nzu4yr_c_scale,w_200.jpg'
 import arbo12_319 from '../assets/photos/arbo/arbo12_nzu4yr_c_scale,w_319.jpg'
 import arbo12_576 from '../assets/photos/arbo/arbo12_nzu4yr_c_scale,w_576.jpg'
 
-import upwork1_200 from '../assets/photos/upwork/upwork1_gfyyvb_c_scale,w_200.jpg'
-import upwork1_511 from '../assets/photos/upwork/upwork1_gfyyvb_c_scale,w_511.jpg'
-
-import upwork2_200 from '../assets/photos/upwork/upwork2_l18gph_c_scale,w_200.jpg'
-import upwork2_350 from '../assets/photos/upwork/upwork2_l18gph_c_scale,w_350.jpg'
-import upwork2_511 from '../assets/photos/upwork/upwork2_l18gph_c_scale,w_511.jpg'
-
-import upwork3_200 from '../assets/photos/upwork/upwork3_xevgea_c_scale,w_200.jpg'
-import upwork3_450 from '../assets/photos/upwork/upwork3_xevgea_c_scale,w_458.jpg'
-import upwork3_647 from '../assets/photos/upwork/upwork3_xevgea_c_scale,w_647.jpg'
-import upwork3_1024 from '../assets/photos/upwork/upwork3_xevgea_c_scale,w_1024.jpg'
-
-import upwork4_200 from '../assets/photos/upwork/upwork4_mqkp3m_c_scale,w_200.jpg'
-import upwork4_511 from '../assets/photos/upwork/upwork4_mqkp3m_c_scale,w_511.jpg'
-
-import upwork5_200 from '../assets/photos/upwork/upwork5_yfp8ul_c_scale,w_200.jpg'
-import upwork5_511 from '../assets/photos/upwork/upwork5_yfp8ul_c_scale,w_511.jpg'
-
-import upwork6_200 from '../assets/photos/upwork/upwork6_c5iiy9_c_scale,w_200.jpg'
-import upwork6_318 from '../assets/photos/upwork/upwork6_c5iiy9_c_scale,w_318.jpg'
-import upwork6_576 from '../assets/photos/upwork/upwork6_c5iiy9_c_scale,w_576.jpg'
-
-import upwork7_200 from '../assets/photos/upwork/upwork7_onyqa3_c_scale,w_200.jpg'
-import upwork7_576 from '../assets/photos/upwork/upwork7_onyqa3_c_scale,w_576.jpg'
-
 import upwork8_200 from '../assets/photos/upwork/upwork8_xouai6_c_scale,w_200.jpg'
 import upwork8_375 from '../assets/photos/upwork/upwork8_xouai6_c_scale,w_375.jpg'
 import upwork8_576 from '../assets/photos/upwork/upwork8_xouai6_c_scale,w_576.jpg'
 
-import upwork9_200 from '../assets/photos/upwork/upwork9_augkxi_c_scale,w_200.jpg'
-import upwork9_576 from '../assets/photos/upwork/upwork9_augkxi_c_scale,w_576.jpg'
-
-import upwork10_200 from '../assets/photos/upwork/upwork10_cgtqik_c_scale,w_200.jpg'
-import upwork10_375 from '../assets/photos/upwork/upwork10_cgtqik_c_scale,w_375.jpg'
-import upwork10_576 from '../assets/photos/upwork/upwork10_cgtqik_c_scale,w_576.jpg'
-
 import upwork11_200 from '../assets/photos/upwork/upwork11_iml1dt_c_scale,w_200.jpg'
 import upwork11_576 from '../assets/photos/upwork/upwork11_iml1dt_c_scale,w_576.jpg'
 
-import upwork12_200 from '../assets/photos/upwork/upwork12_ziqhpe_c_scale,w_200.jpg'
-import upwork12_447 from '../assets/photos/upwork/upwork12_ziqhpe_c_scale,w_447.jpg'
-import upwork12_641 from '../assets/photos/upwork/upwork12_ziqhpe_c_scale,w_641.jpg'
-import upwork12_1024 from '../assets/photos/upwork/upwork12_ziqhpe_c_scale,w_1024.jpg'
+
+import arbo20_200 from '../assets/photos/arbo/arbo20_o_aeszch_c_scale,w_200.jpg'
+import arbo20_630 from '../assets/photos/arbo/arbo20_o_aeszch_c_scale,w_630.jpg'
+import arbo20_883 from '../assets/photos/arbo/arbo20_o_aeszch_c_scale,w_883.jpg'
+import arbo20_1112 from '../assets/photos/arbo/arbo20_o_aeszch_c_scale,w_1112.jpg'
+import arbo20_1280 from '../assets/photos/arbo/arbo20_o_aeszch_c_scale,w_1280.jpg'
+
+import arbo21_200 from '../assets/photos/arbo/arbo21_o_igmkat_c_scale,w_200.jpg'
+import arbo21_663 from '../assets/photos/arbo/arbo21_o_igmkat_c_scale,w_663.jpg'
+import arbo21_947 from '../assets/photos/arbo/arbo21_o_igmkat_c_scale,w_947.jpg'
+import arbo21_1233 from '../assets/photos/arbo/arbo21_o_igmkat_c_scale,w_1233.jpg'
+import arbo21_1400 from '../assets/photos/arbo/arbo21_o_igmkat_c_scale,w_1400.jpg'
+
+import arbo22_200 from '../assets/photos/arbo/arbo22_o_tijbap_c_scale,w_200.jpg'
+import arbo22_652 from '../assets/photos/arbo/arbo22_o_tijbap_c_scale,w_652.jpg'
+import arbo22_939 from '../assets/photos/arbo/arbo22_o_tijbap_c_scale,w_939.jpg'
+import arbo22_1205 from '../assets/photos/arbo/arbo22_o_tijbap_c_scale,w_1205.jpg'
+import arbo22_1400 from '../assets/photos/arbo/arbo22_o_tijbap_c_scale,w_1400.jpg'
+
+import arbo23_200 from '../assets/photos/arbo/arbo23_o_odejoh_c_scale,w_200.jpg'
+import arbo23_663 from '../assets/photos/arbo/arbo23_o_odejoh_c_scale,w_663.jpg'
+import arbo23_948 from '../assets/photos/arbo/arbo23_o_odejoh_c_scale,w_948.jpg'
+import arbo23_1233 from '../assets/photos/arbo/arbo23_o_odejoh_c_scale,w_1233.jpg'
+import arbo23_1400 from '../assets/photos/arbo/arbo23_o_odejoh_c_scale,w_1400.jpg'
+
+import arbo24_200 from '../assets/photos/arbo/arbo24_o_lu3saj_c_scale,w_200.jpg'
+import arbo24_656 from '../assets/photos/arbo/arbo24_o_lu3saj_c_scale,w_656.jpg'
+import arbo24_945 from '../assets/photos/arbo/arbo24_o_lu3saj_c_scale,w_945.jpg'
+import arbo24_1224 from '../assets/photos/arbo/arbo24_o_lu3saj_c_scale,w_1224.jpg'
+import arbo24_1400 from '../assets/photos/arbo/arbo24_o_lu3saj_c_scale,w_1400.jpg'
 
 export const PHOTOS1 = [
   {
-    sizes: ['(max-width: 511px) 100vw', '511px'],
-    srcSet: [`${arbo1_200} 200w`, `${arbo1_511} 511w`],
-    src: arbo1_511,
+    sizes: ['(max-width: 1400px) 100vw', '1400px'],
+    srcSet: [
+      `${arbo24_200} 200w`,
+      `${arbo24_656} 656w`,
+      `${arbo24_945} 945w`,
+      `${arbo24_1224} 1234w`,
+      `${arbo24_1400} 1400w`
+    ],
+    src: arbo24_656,
     alt: 'arborist work',
     width: 3,
     height: 4
   },
   {
-    sizes: ['(max-width: 511px) 100vw', '511px'],
-    srcSet: [`${arbo2_200} 200w`, `${arbo2_511} 511w`],
-    src: arbo2_511,
+    sizes: ['(max-width: 1400px) 100vw', '1400px'],
+    srcSet: [
+      `${arbo23_200} 200w`,
+      `${arbo23_663} 663w`,
+      `${arbo23_948} 948w`,
+      `${arbo23_1233} 1233w`,
+      `${arbo23_1400} 1400w`
+    ],
+    src: arbo23_663,
     alt: 'arborist work',
     width: 3,
     height: 4
   },
   {
-    sizes: ['(max-width: 511px) 100vw', '511px'],
-    srcSet: [`${arbo3_200} 200w`, `${arbo3_362} 362w`, `${arbo3_511} 511w`],
-    src: arbo3_511,
+    sizes: ['(max-width: 1400px) 100vw', '1400px'],
+    srcSet: [
+      `${arbo22_200} 200w`,
+      `${arbo22_652} 652w`,
+      `${arbo22_939} 939w`,
+      `${arbo22_1205} 1205w`,
+      `${arbo22_1400} 1400w`
+    ],
+    src: arbo22_652,
+    alt: 'arborist work',
+    width: 3,
+    height: 4
+  },
+  {
+    sizes: ['(max-width: 1280px) 100vw', '1280px'],
+    srcSet: [
+      `${arbo20_200} 200w`,
+      `${arbo20_630} 630w`,
+      `${arbo20_883} 883w`,
+      `${arbo20_1112} 1112w`,
+      `${arbo20_1280} 1280w`
+    ],
+    src: arbo20_630,
+    alt: 'arborist work',
+    width: 3,
+    height: 4
+  },
+  {
+    sizes: ['(max-width: 1280px) 100vw', '1280px'],
+    srcSet: [
+      `${arbo21_200} 200w`,
+      `${arbo21_663} 663w`,
+      `${arbo21_947} 947w`,
+      `${arbo21_1233} 1233w`,
+      `${arbo21_1400} 1400w`
+    ],
+    src: arbo21_663,
     alt: 'arborist work',
     width: 3,
     height: 4
@@ -244,66 +274,8 @@ export const PHOTOS1 = [
     alt: 'arborist work',
     width: 3,
     height: 4
-  }
-]
+  },
 
-export const PHOTOS2 = [
-  {
-    sizes: ['(max-width: 511px) 100vw', '511px'],
-    srcSet: [`${upwork1_200} 200w`, `${upwork1_511} 511w`],
-    src: upwork1_511,
-    alt: 'upwork',
-    width: 3,
-    height: 4
-  },
-  {
-    sizes: ['(max-width: 511px) 100vw', '511px'],
-    srcSet: [`${upwork2_200} 200w`, `${upwork2_350} 350w`, `${upwork2_511} 511w`],
-    src: upwork2_511,
-    alt: 'upwork',
-    width: 3,
-    height: 4
-  },
-  {
-    sizes: ['(max-width: 1024) 100vw', '1024px'],
-    srcSet: [`${upwork3_200} 200w`, `${upwork3_450} 450w`, `${upwork3_647} 647w`, `${upwork3_1024} 1024w`],
-    src: upwork3_1024,
-    alt: 'upwork',
-    width: 16,
-    height: 9
-  },
-  {
-    sizes: ['(max-width: 511) 100vw', '511px'],
-    srcSet: [`${upwork4_200} 200w`, `${upwork4_511} 511w`],
-    src: upwork4_511,
-    alt: 'upwork',
-    width: 3,
-    height: 4
-  },
-  {
-    sizes: ['(max-width: 511) 100vw', '511px'],
-    srcSet: [`${upwork5_200} 200w`, `${upwork5_511} 511w`],
-    src: upwork5_511,
-    alt: 'upwork',
-    width: 3,
-    height: 4
-  },
-  {
-    sizes: ['(max-width: 576) 100vw', '576px'],
-    srcSet: [`${upwork6_200} 200w`, `${upwork6_318} 318w`, `${upwork6_576} 576w`],
-    src: upwork6_576,
-    alt: 'upwork',
-    width: 3,
-    height: 4
-  },
-  {
-    sizes: ['(max-width: 576) 100vw', '576px'],
-    srcSet: [`${upwork7_200} 200w`, `${upwork7_576} 576w`],
-    src: upwork7_576,
-    alt: 'upwork',
-    width: 3,
-    height: 4
-  },
   {
     sizes: ['(max-width: 576) 100vw', '576px'],
     srcSet: [`${upwork8_200} 200w`, `${upwork8_375} 375w`, `${upwork8_576} 576w`],
@@ -312,22 +284,7 @@ export const PHOTOS2 = [
     width: 3,
     height: 4
   },
-  {
-    sizes: ['(max-width: 576) 100vw', '576px'],
-    srcSet: [`${upwork9_200} 200w`, `${upwork9_576} 576w`],
-    src: upwork9_576,
-    alt: 'upwork',
-    width: 3,
-    height: 4
-  },
-  {
-    sizes: ['(max-width: 576) 100vw', '576px'],
-    srcSet: [`${upwork10_200} 200w`, `${upwork10_375} 375w`, `${upwork10_576} 576w`],
-    src: upwork10_576,
-    alt: 'upwork',
-    width: 3,
-    height: 4
-  },
+
   {
     sizes: ['(max-width: 576) 100vw', '576px'],
     srcSet: [`${upwork11_200} 200w`, `${upwork11_576} 576w`],
@@ -335,13 +292,5 @@ export const PHOTOS2 = [
     alt: 'upwork',
     width: 3,
     height: 4
-  },
-  {
-    sizes: ['(max-width: 1024) 100vw', '1024px'],
-    srcSet: [`${upwork12_200} 200w`, `${upwork12_447} 447w`, `${upwork12_641} 641w`, `${upwork12_1024} 1024w`],
-    src: upwork12_1024,
-    alt: 'upwork',
-    width: 4,
-    height: 3
   }
 ]

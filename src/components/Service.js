@@ -24,17 +24,6 @@ const Service = () => {
           {contactButton}
         </div>
       </div>
-      <div className="Service-work">
-        <div className="Service-box">
-          <h1>Výškové práce</h1>
-          <div>
-            Ve výškových pracích pokrýváme vpodstatě všechna povolání. Jedná se především o kompletní opravy fasád, sítě
-            a hroty proti holubům, drobné klempířské a pokrývačské opravy, tlakové mytí fasád, mytí oken, opravy a
-            tmelení spár panelových domů a jiné.
-          </div>
-          {contactButton}
-        </div>
-      </div>
     </div>
   )
 }

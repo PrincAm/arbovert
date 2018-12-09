@@ -5,12 +5,7 @@ import '../styles/Reference.css'
 
 const Reference = () => (
   <div className="Reference">
-    <div className="Reference-arbo">
-      <ReferencePhotos photos={PHOTOS1} />
-    </div>
-    <div className="Reference-work">
-      <ReferencePhotos photos={PHOTOS2} />
-    </div>
+    <ReferencePhotos photos={PHOTOS1} />
   </div>
 )
 

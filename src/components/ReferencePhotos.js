@@ -40,7 +40,7 @@ class ReferencePhotos extends Component {
     const {currentImage, lightboxIsOpen} = this.state
     return (
       <div>
-        <Gallery photos={photos} cols={4} onClick={this.openLightbox} />
+        <Gallery photos={photos} columns={5} onClick={this.openLightbox} />
         <Lightbox
           theme={{container: {background: 'rgba(0, 0, 0, 0.85)'}}}
           images={photos}
