@@ -95,14 +95,134 @@ import arbo24_945 from '../assets/photos/arbo/arbo24_o_lu3saj_c_scale,w_945.jpg'
 import arbo24_1224 from '../assets/photos/arbo/arbo24_o_lu3saj_c_scale,w_1224.jpg'
 import arbo24_1400 from '../assets/photos/arbo/arbo24_o_lu3saj_c_scale,w_1400.jpg'
 
+import arbo25_200 from '../assets/photos/arbo/arbo25_o_lwljup_c_scale,w_200.jpg'
+import arbo25_658 from '../assets/photos/arbo/arbo25_o_lwljup_c_scale,w_658.jpg'
+import arbo25_947 from '../assets/photos/arbo/arbo25_o_lwljup_c_scale,w_947.jpg'
+import arbo25_1225 from '../assets/photos/arbo/arbo25_o_lwljup_c_scale,w_1225.jpg'
+import arbo25_1400 from '../assets/photos/arbo/arbo25_o_lwljup_c_scale,w_1400.jpg'
+
+import arbo26_200 from '../assets/photos/arbo/arbo26_o_ihjsbh_c_scale,w_200.jpg'
+import arbo26_645 from '../assets/photos/arbo/arbo26_o_ihjsbh_c_scale,w_645.jpg'
+import arbo26_943 from '../assets/photos/arbo/arbo26_o_ihjsbh_c_scale,w_943.jpg'
+import arbo26_1179 from '../assets/photos/arbo/arbo26_o_ihjsbh_c_scale,w_1179.jpg'
+import arbo26_1400 from '../assets/photos/arbo/arbo26_o_ihjsbh_c_scale,w_1400.jpg'
+
+import arbo27_200 from '../assets/photos/arbo/arbo27_o_tapjpa_c_scale,w_200.jpg'
+import arbo27_662 from '../assets/photos/arbo/arbo27_o_tapjpa_c_scale,w_662.jpg'
+import arbo27_946 from '../assets/photos/arbo/arbo27_o_tapjpa_c_scale,w_946.jpg'
+import arbo27_1232 from '../assets/photos/arbo/arbo27_o_tapjpa_c_scale,w_1232.jpg'
+import arbo27_1400 from '../assets/photos/arbo/arbo27_o_tapjpa_c_scale,w_1400.jpg'
+
+import arbo28_200 from '../assets/photos/arbo/arbo28_o_lx3aqn_c_scale,w_200.jpg'
+import arbo28_664 from '../assets/photos/arbo/arbo28_o_lx3aqn_c_scale,w_664.jpg'
+import arbo28_948 from '../assets/photos/arbo/arbo28_o_lx3aqn_c_scale,w_948.jpg'
+import arbo28_1234 from '../assets/photos/arbo/arbo28_o_lx3aqn_c_scale,w_1234.jpg'
+import arbo28_1400 from '../assets/photos/arbo/arbo28_o_lx3aqn_c_scale,w_1400.jpg'
+
+import arbo29_200 from '../assets/photos/arbo/arbo29_o_wruc2x_c_scale,w_200.jpg'
+import arbo29_675 from '../assets/photos/arbo/arbo29_o_wruc2x_c_scale,w_675.jpg'
+import arbo29_958 from '../assets/photos/arbo/arbo29_o_wruc2x_c_scale,w_958.jpg'
+import arbo29_1237 from '../assets/photos/arbo/arbo29_o_wruc2x_c_scale,w_1237.jpg'
+import arbo29_1400 from '../assets/photos/arbo/arbo29_o_wruc2x_c_scale,w_1400.jpg'
+
+import arbo30_200 from '../assets/photos/arbo/arbo30_o_x2ee2d_c_scale,w_200.jpg'
+import arbo30_701 from '../assets/photos/arbo/arbo30_o_x2ee2d_c_scale,w_701.jpg'
+import arbo30_1020 from '../assets/photos/arbo/arbo30_o_x2ee2d_c_scale,w_1020.jpg'
+import arbo30_1285 from '../assets/photos/arbo/arbo30_o_x2ee2d_c_scale,w_1285.jpg'
+import arbo30_1400 from '../assets/photos/arbo/arbo30_o_x2ee2d_c_scale,w_1400.jpg'
+
 export const PHOTOS1 = [
+  {
+    sizes: ['(max-width: 1400px) 100vw', '1400px'],
+    srcSet: [
+      `${arbo30_200} 200w`,
+      `${arbo30_701} 701w`,
+      `${arbo30_1020} 1020w`,
+      `${arbo30_1285} 1285w`,
+      `${arbo30_1400} 1400w`
+    ],
+    src: arbo30_701,
+    alt: 'arborist work',
+    width: 4,
+    height: 3
+  },
+  {
+    sizes: ['(max-width: 1400px) 100vw', '1400px'],
+    srcSet: [
+      `${arbo29_200} 200w`,
+      `${arbo29_675} 675w`,
+      `${arbo29_958} 958w`,
+      `${arbo29_1237} 1237w`,
+      `${arbo29_1400} 1400w`
+    ],
+    src: arbo29_675,
+    alt: 'arborist work',
+    width: 3,
+    height: 4
+  },
+  {
+    sizes: ['(max-width: 1400px) 100vw', '1400px'],
+    srcSet: [
+      `${arbo28_200} 200w`,
+      `${arbo28_664} 664w`,
+      `${arbo28_948} 948w`,
+      `${arbo28_1234} 1234w`,
+      `${arbo28_1400} 1400w`
+    ],
+    src: arbo28_664,
+    alt: 'arborist work',
+    width: 3,
+    height: 4
+  },
+  {
+    sizes: ['(max-width: 1400px) 100vw', '1400px'],
+    srcSet: [
+      `${arbo27_200} 200w`,
+      `${arbo27_662} 662w`,
+      `${arbo27_946} 946w`,
+      `${arbo27_1232} 1232w`,
+      `${arbo27_1400} 1400w`
+    ],
+    src: arbo27_662,
+    alt: 'arborist work',
+    width: 3,
+    height: 4
+  },
+  {
+    sizes: ['(max-width: 1400px) 100vw', '1400px'],
+    srcSet: [
+      `${arbo26_200} 200w`,
+      `${arbo26_645} 645w`,
+      `${arbo26_943} 943w`,
+      `${arbo26_1179} 1179w`,
+      `${arbo26_1400} 1400w`
+    ],
+    src: arbo26_645,
+    alt: 'arborist work',
+    width: 3,
+    height: 4
+  },
+  {
+    sizes: ['(max-width: 1400px) 100vw', '1400px'],
+    srcSet: [
+      `${arbo25_200} 200w`,
+      `${arbo25_658} 658w`,
+      `${arbo25_947} 947w`,
+      `${arbo25_1225} 1225w`,
+      `${arbo25_1400} 1400w`
+    ],
+    src: arbo25_658,
+    alt: 'arborist work',
+    width: 3,
+    height: 4
+  },
   {
     sizes: ['(max-width: 1400px) 100vw', '1400px'],
     srcSet: [
       `${arbo24_200} 200w`,
       `${arbo24_656} 656w`,
       `${arbo24_945} 945w`,
-      `${arbo24_1224} 1234w`,
+      `${arbo24_1224} 1224w`,
       `${arbo24_1400} 1400w`
     ],
     src: arbo24_656,
