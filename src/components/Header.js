@@ -12,7 +12,7 @@ class Header extends Component {
   }
 
   handleScrollToWelcome = () => {
-    scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: 'easeInOutQuad', offset: -80})
+    scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: 'easeInOutQuad'})
     this.setState({
       mobileMenuIsOpen: false
     })
@@ -56,9 +56,8 @@ class Header extends Component {
                     to="welcome"
                     spy={true}
                     smooth={'easeInOutQuad'}
-                    duration={2000}
-                    delay={50}
-                    offset={-80}
+                    duration={1500}
+                    delay={100}
                     onClick={this.handleOpenMenu}>
                     Domů
                   </Link>
@@ -70,8 +69,8 @@ class Header extends Component {
                     to="service"
                     spy={true}
                     smooth={'easeInOutQuad'}
-                    duration={2000}
-                    delay={50}
+                    duration={1500}
+                    delay={100}
                     onClick={this.handleOpenMenu}>
                     Služby
                   </Link>
@@ -83,8 +82,8 @@ class Header extends Component {
                     to="reference"
                     spy={true}
                     smooth={'easeInOutQuad'}
-                    duration={2000}
-                    delay={50}
+                    duration={1500}
+                    delay={100}
                     onClick={this.handleOpenMenu}>
                     Fotky práce
                   </Link>
@@ -96,8 +95,8 @@ class Header extends Component {
                     to="contact"
                     spy={true}
                     smooth={'easeInOutQuad'}
-                    duration={2000}
-                    delay={50}
+                    duration={1500}
+                    delay={100}
                     onClick={this.handleOpenMenu}>
                     Kontakt
                   </Link>

@@ -1,5 +1,5 @@
 .Welcome {
-  padding: 50px 50px 50px 50px;
+  padding: 100px 50px 50px 50px;
   height: 100vh;
   width: 100vw;
   color: #ece9e9;
@@ -9,8 +9,12 @@
   font-size: 1.4em;
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
-  padding: 30px 30px 80px 30px;
+
+  border-radius: 5px;
+  padding: 30px 30px 30px 30px;
   animation: fade-in 2s ease-out;
+  margin-top: 50px;
+  width: 70%;
 }
 
 @keyframes fade-in {
@@ -23,8 +27,19 @@
   }
 }
 
-.Welcome-question h1 {
-  margin-bottom: 0;
+.Welcome-arrowDown {
+  height: 60px;
+  width: 60px;
+  color: #c21f39;
+}
+
+.Welcome-arrowDown:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.Welcome-question {
+  font-size: 1.5em;
 }
 
 .Welcome-slogan {
