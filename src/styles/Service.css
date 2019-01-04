@@ -33,7 +33,7 @@
 .Service-box {
   padding-top: 20px;
   min-height: 100vh;
-  width: 50%;
+  width: 70%;
   min-width: 50vw;
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -47,6 +47,15 @@
   padding: 10px 40px;
   line-height: 1.5em;
   font-size: 1.4em;
+}
+
+.Service-box ul {
+    margin: 5px 0 5px 35px;
+    list-style-image: url("../assets/pine.svg");
+}
+
+.Service-box li {
+    margin-top: 5px
 }
 
 @media (max-width: 767px) {

@@ -18,8 +18,15 @@ const Service = () => {
         <div className="Service-box">
           <h1>Arboristika</h1>
           <div>
-            V arboristice provádíme kompletní péče o dřeviny od rizikového kácení, přes odborné ošetřování a zajišťování
-            stromů, prořezávky ovocných stromů, až po likvidaci dřevní hmoty.
+            V arboristice provádíme kompletní péče o dřeviny, například:
+            <ul>
+              <li>rizikové kácení stromů</li>
+              <li>odborné ošetřování stromů</li>
+              <li>zajišťovaní stromů</li>
+              <li>prořezávání ovocných stromů</li>
+              <li>likvidaci dřevní hmoty</li>
+            </ul>
+            Nezávazné nacenění práce je samozřejmostí!
           </div>
           {contactButton}
         </div>
