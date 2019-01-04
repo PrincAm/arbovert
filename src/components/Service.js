@@ -18,7 +18,7 @@ const Service = () => {
         <div className="Service-box">
           <h1>Arboristika</h1>
           <div>
-            V arboristice provádíme kompletní péče o dřeviny, například:
+            V arboristice provádíme kompletní péče o dřeviny
             <ul>
               <li>rizikové kácení stromů</li>
               <li>odborné ošetřování stromů</li>
