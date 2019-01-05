@@ -574,29 +574,6 @@ export const PHOTOS1 = [
     height: 3
   },
   {
-    sizes: ['(max-width: 576px) 100vw', '576px'],
-    srcSet: [
-      `${arbo11_200} 200w`,
-      `${arbo11_270} 270w`,
-      `${arbo11_330} 3300w`,
-      `${arbo11_383} 383w`,
-      `${arbo11_576} 576w`
-    ],
-    src: arbo11_576,
-    alt: 'arborist work',
-    width: 3,
-    height: 4
-  },
-  {
-    sizes: ['(max-width: 576px) 100vw', '576px'],
-    srcSet: [`${arbo12_200} 200w`, `${arbo12_319} 319w`, `${arbo12_576} 576w`],
-    src: arbo12_576,
-    alt: 'arborist work',
-    width: 3,
-    height: 4
-  },
-
-  {
     sizes: ['(max-width: 576) 100vw', '576px'],
     srcSet: [`${upwork8_200} 200w`, `${upwork8_375} 375w`, `${upwork8_576} 576w`],
     src: upwork8_576,

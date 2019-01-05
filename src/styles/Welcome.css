@@ -69,7 +69,7 @@
 
 .Welcome-bg:after {
   content: '';
-  background: transparent url(../assets/pattern.png) repeat top left;
+  background: transparent url(../assets/background/pattern.png) repeat top left;
 }
 
 .Welcome-bg span {
@@ -83,46 +83,26 @@
   background-repeat: no-repeat;
   opacity: 0;
   z-index: -1;
-  -webkit-animation: imageAnimation 50s linear infinite 0s;
-  -moz-animation: imageAnimation 50s linear infinite 0s;
-  -o-animation: imageAnimation 50s linear infinite 0s;
-  animation: imageAnimation 50s linear infinite 0s;
+  animation: imageAnimation 40s linear infinite 0s;
 }
 
 .Welcome-bg span:nth-child(1) {
-  background-image: url('../assets/background1.jpg');
+  background-image: url('../assets/background/background1.jpg');
 }
 
 .Welcome-bg span:nth-child(2) {
-  background-image: url('../assets/background2.jpg');
-  -webkit-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  -o-animation-delay: 10s;
+  background-image: url('../assets/background/background3.jpg');
   animation-delay: 10s;
 }
 
 .Welcome-bg span:nth-child(3) {
-  background-image: url('../assets/background3.jpg');
-  -webkit-animation-delay: 20s;
-  -moz-animation-delay: 20s;
-  -o-animation-delay: 20s;
+  background-image: url('../assets/background/background4.jpg');
   animation-delay: 20s;
 }
 
 .Welcome-bg span:nth-child(4) {
-  background-image: url('../assets/background4.jpg');
-  -webkit-animation-delay: 30s;
-  -moz-animation-delay: 30s;
-  -o-animation-delay: 30s;
+  background-image: url('../assets/background/background5.jpg');
   animation-delay: 30s;
-}
-
-.Welcome-bg span:nth-child(5) {
-  background-image: url('../assets/background5.jpg');
-  -webkit-animation-delay: 40s;
-  -moz-animation-delay: 40s;
-  -o-animation-delay: 40s;
-  animation-delay: 40s;
 }
 
 @keyframes imageAnimation {
@@ -152,7 +132,7 @@
   .Welcome {
     padding: 0;
     font-size: 0.6em;
-    background: center no-repeat url('../assets/background1.jpg');
+    background: center no-repeat url('../assets/background/background1.jpg');
   }
 
   .Welcome-content {
