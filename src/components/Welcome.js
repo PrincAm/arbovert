@@ -27,7 +27,7 @@ const Welcome = () => (
             Pomůžeme Vám se stromy,
             <br />i s těmi nejvyššími.
           </div>
-          <div className="Welcome-mottoSecondary">Lorem ipsum, ........ lorem ipsum,....</div>
+          <div className="Welcome-mottoSecondary">kácení, ošetřování, prořezávání</div>
           <ArrowDown className="Welcome-arrowDown" onClick={() => scrollToService()} />
         </div>
         <div className="Welcome-message" />
