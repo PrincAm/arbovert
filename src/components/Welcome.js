@@ -1,6 +1,6 @@
 import React from 'react'
 import {Desktop} from './App'
-import {ReactComponent as ArrowDown} from '../assets/angle-down-solid.svg'
+import {ReactComponent as ArrowDown} from '../assets/arrow_down.svg'
 import {scroller} from 'react-scroll'
 
 import '../styles/Welcome.css'

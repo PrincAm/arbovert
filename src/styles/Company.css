@@ -23,7 +23,7 @@
     padding: 70px 0 0 70px;
 }
 
-.Company-box div {
+.Company-box > div {
     padding: 10px 40px;
     line-height: 1.5em;
     font-size: 1.4em;
