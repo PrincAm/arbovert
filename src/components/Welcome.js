@@ -20,12 +20,14 @@ const Welcome = () => (
         <span />
       </div>
     </Desktop>
-    <div style={{display: 'flex', justifyContent: 'center'}}>
+    <div className="Welcome-container">
       <div className="Welcome-content">
-        <div className="Welcome-question">
-          <div>Pomůžeme Vám se stromy,</div>
-          <div>i s těmi nejvyššími.</div>
-          <div style={{fontSize: '0.5em'}}>Lorem ipsum, ........ lorem ipsum,....</div>
+        <div className="Welcome-motto">
+          <div>
+            Pomůžeme Vám se stromy,
+            <br />i s těmi nejvyššími.
+          </div>
+          <div className="Welcome-mottoSecondary">Lorem ipsum, ........ lorem ipsum,....</div>
           <ArrowDown className="Welcome-arrowDown" onClick={() => scrollToService()} />
         </div>
         <div className="Welcome-message" />
