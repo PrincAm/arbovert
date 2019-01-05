@@ -40,7 +40,8 @@ class ReferencePhotos extends Component {
     const {currentImage, lightboxIsOpen} = this.state
     return (
       <div>
-        <Gallery photos={photos} columns={5} onClick={this.openLightbox} />
+        /* 320px width of iPhone 5/SE screen */
+        <Gallery photos={photos} columns={window.innerWidth > 320 ? 5 : 4} onClick={this.openLightbox} />
         <Lightbox
           theme={{container: {background: 'rgba(0, 0, 0, 0.85)'}}}
           images={photos}

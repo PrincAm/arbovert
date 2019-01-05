@@ -12,9 +12,8 @@ const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
         to="welcome"
         spy={true}
         smooth={'easeInOutQuad'}
-        duration={2000}
+        duration={1500}
         delay={50}
-        offset={-70}
         onClick={onHandleMobilMenu}>
         Domů
       </Link>
@@ -26,10 +25,23 @@ const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
         to="service"
         spy={true}
         smooth={'easeInOutQuad'}
-        duration={2000}
+        duration={1500}
         delay={50}
         onClick={onHandleMobilMenu}>
         Služby
+      </Link>
+    </div>
+    <div>
+      <Link
+        activeClass="active"
+        className="Header-service"
+        to="company"
+        spy={true}
+        smooth={'easeInOutQuad'}
+        duration={1500}
+        delay={100}
+        onClick={onHandleMobilMenu}>
+        O nás
       </Link>
     </div>
     <div>
@@ -39,10 +51,10 @@ const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
         to="reference"
         spy={true}
         smooth={'easeInOutQuad'}
-        duration={2000}
+        duration={1500}
         delay={50}
         onClick={onHandleMobilMenu}>
-        Reference
+        Fotky práce
       </Link>
     </div>
     <div>
@@ -52,7 +64,7 @@ const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
         to="contact"
         spy={true}
         smooth={'easeInOutQuad'}
-        duration={2000}
+        duration={1500}
         delay={50}
         onClick={onHandleMobilMenu}>
         Kontakt

@@ -35,6 +35,10 @@
   -webkit-text-fill-color: unset;
 }
 
+.MobileMenu .Header-welcome {
+  padding-top: 10px;
+}
+
 .visible {
   left: 0;
   opacity: 1;

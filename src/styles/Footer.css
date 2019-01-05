@@ -29,3 +29,12 @@
 .Footer-phoneNumber {
   padding-right: 10px;
 }
+
+/* iPhone 5/SE */
+@media (max-width: 320px) {
+    .Footer-contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Link, scroller} from 'react-scroll'
 import classNames from 'classnames'
+
 import {Mobile, Desktop} from './App'
 import MobileMenu from './MobileMenu'
 import logo from '../assets/arbovert_logo.png'

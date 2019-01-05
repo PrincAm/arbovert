@@ -51,6 +51,8 @@
   }
 
   .Contact-picture img {
+    float: none;
     padding: 0 0 10px 0;
+    width: 100%;
   }
 }
