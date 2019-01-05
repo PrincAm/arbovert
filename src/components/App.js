@@ -3,6 +3,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Welcome from './Welcome'
 import Contact from './Contact'
+import Company from './Company'
 import Reference from './Reference'
 import Service from './Service'
 import {Element} from 'react-scroll'
@@ -22,6 +23,10 @@ const App = () => (
 
     <Element name="service">
       <Service />
+    </Element>
+
+    <Element name="company">
+      <Company />
     </Element>
 
     <Element name="reference">

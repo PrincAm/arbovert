@@ -78,6 +78,19 @@ class Header extends Component {
                 <li>
                   <Link
                     activeClass="active"
+                    className="Header-service"
+                    to="company"
+                    spy={true}
+                    smooth={'easeInOutQuad'}
+                    duration={1500}
+                    delay={100}
+                    onClick={this.handleOpenMenu}>
+                    O nás
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    activeClass="active"
                     className="Header-reference"
                     to="reference"
                     spy={true}
