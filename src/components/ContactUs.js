@@ -11,7 +11,7 @@ const scrollToContact = () => {
 const ContactUs = () => (
   <div className="ContactUs">
     <div className="ContactUs-wrapper" onClick={() => scrollToContact()}>
-      Kontaktujte Nás
+      Kontaktujte nás
       <ArrowDown className="ContactUs-arrowDown" />
     </div>
   </div>
