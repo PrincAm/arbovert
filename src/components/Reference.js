@@ -1,6 +1,6 @@
 import React from 'react'
 import ReferencePhotos from './ReferencePhotos'
-import {PHOTOS1, PHOTOS2} from '../utils/photoUtil'
+import {PHOTOS1} from '../utils/photoUtil'
 import '../styles/Reference.css'
 
 const Reference = () => (

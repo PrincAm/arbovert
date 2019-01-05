@@ -47,16 +47,6 @@ import arbo10_634 from '../assets/photos/arbo/arbo10_wydsxu_c_scale,w_634.jpg'
 import arbo10_701 from '../assets/photos/arbo/arbo10_wydsxu_c_scale,w_701.jpg'
 import arbo10_1024 from '../assets/photos/arbo/arbo10_wydsxu_c_scale,w_1024.jpg'
 
-import arbo11_200 from '../assets/photos/arbo/arbo11_af5w3n_c_scale,w_200.jpg'
-import arbo11_270 from '../assets/photos/arbo/arbo11_af5w3n_c_scale,w_270.jpg'
-import arbo11_330 from '../assets/photos/arbo/arbo11_af5w3n_c_scale,w_330.jpg'
-import arbo11_383 from '../assets/photos/arbo/arbo11_af5w3n_c_scale,w_383.jpg'
-import arbo11_576 from '../assets/photos/arbo/arbo11_af5w3n_c_scale,w_576.jpg'
-
-import arbo12_200 from '../assets/photos/arbo/arbo12_nzu4yr_c_scale,w_200.jpg'
-import arbo12_319 from '../assets/photos/arbo/arbo12_nzu4yr_c_scale,w_319.jpg'
-import arbo12_576 from '../assets/photos/arbo/arbo12_nzu4yr_c_scale,w_576.jpg'
-
 import upwork8_200 from '../assets/photos/upwork/upwork8_xouai6_c_scale,w_200.jpg'
 import upwork8_375 from '../assets/photos/upwork/upwork8_xouai6_c_scale,w_375.jpg'
 import upwork8_576 from '../assets/photos/upwork/upwork8_xouai6_c_scale,w_576.jpg'

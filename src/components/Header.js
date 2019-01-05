@@ -34,9 +34,9 @@ class Header extends Component {
       <div className="Header">
         <nav className="Header-nav">
           <div className="Header-logo">
-            <a onClick={this.handleScrollToWelcome}>
+            <span onClick={this.handleScrollToWelcome}>
               <img src={logo} alt="logo arbovert" />
-            </a>
+            </span>
           </div>
           <div className="Header-spacer" />
           <Mobile>
