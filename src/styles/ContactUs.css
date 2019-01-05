@@ -1,24 +1,30 @@
 .ContactUs {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .ContactUs-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 0.8em;
-    line-height: 1em;
-    color: #EC2B2C;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.8em;
+  line-height: 1em;
+  color: #ec2b2c;
 }
 
 .ContactUs-wrapper:hover {
-    cursor: pointer;
-    color: #ece9e9;
+  cursor: pointer;
+  color: #ece9e9;
 }
 
 .ContactUs-arrowDown {
-    margin-left: 5px;
-    height: 32px;
-    width: 32px;
+  margin-left: 5px;
+  height: 32px;
+  width: 32px;
+}
+
+@media (max-width: 767px) {
+  .ContactUs-wrapper {
+    font-size: 1.3em;
+  }
 }

@@ -15,7 +15,7 @@ const Service = () => {
       <div className="Company-box">
         <h1>Arbovert</h1>
         <div>
-          <picture style={{height: '300px'}}>
+          <picture className="Contact-picture">
             <img
               sizes="(max-width: 1400px) 100vw, 1400px"
               srcSet={`
@@ -26,7 +26,6 @@ const Service = () => {
                 ${dachshund_706} 1400w`}
               src={dachshund_535}
               alt="dachshund"
-              style={{width: '300px', paddingRight: '20px', paddingTop: '10px', float: 'left'}}
             />
           </picture>
           Náš Arbovert se již od roku 2013 zabývá arboristikou, kompletní péčí o dřeviny a výškovými pracemi všeho
