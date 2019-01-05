@@ -1,6 +1,7 @@
 import React from 'react'
+
 import map from '../assets/map.png'
-import fbicon from '../assets/fbicon.png'
+import {ReactComponent as FacebookIcon} from '../assets/facebook.svg'
 
 import '../styles/Contact.css'
 
@@ -25,7 +26,7 @@ const Contact = () => (
       <div>Působíme v Praze a středočeském kraji</div>
       <div className="Contact-socialMedia">
         <a href="https://www.facebook.com/arbovertcz" target="_blank">
-          <img src={fbicon} alt="facebook" />
+          <FacebookIcon />
         </a>
       </div>
     </div>
