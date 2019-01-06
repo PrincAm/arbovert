@@ -61,7 +61,7 @@
 }
 
 .Header-menu .active {
-  color: #EC2B2C;
+  color: #ec2b2c;
 }
 
 .Header-burger {
@@ -100,5 +100,6 @@
 @media (max-width: 767px) {
   .Header-logo img {
     width: 200px;
+    height: 37px;
   }
 }
