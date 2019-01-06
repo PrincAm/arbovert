@@ -14,6 +14,7 @@ const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
         smooth={'easeInOutQuad'}
         duration={1500}
         delay={50}
+        offset={-80}
         onClick={onHandleMobilMenu}>
         Domů
       </Link>
