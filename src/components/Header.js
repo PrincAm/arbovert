@@ -13,7 +13,7 @@ class Header extends Component {
   }
 
   handleScrollToWelcome = () => {
-    scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: 'easeInOutQuad'})
+    scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: 'easeInOutQuad', offset: -80})
     this.setState({
       mobileMenuIsOpen: false
     })
@@ -59,6 +59,7 @@ class Header extends Component {
                     smooth={'easeInOutQuad'}
                     duration={1500}
                     delay={100}
+                    offset={-80}
                     onClick={this.handleOpenMenu}>
                     Domů
                   </Link>
