@@ -51,9 +51,13 @@
   height: 100%;
 }
 
+.Header-nav a,
+.Header-logo span {
+    cursor: pointer;
+}
+
 .Header-nav a {
-  text-transform: uppercase;
-  cursor: pointer;
+    text-transform: uppercase;
 }
 
 .Header-menu a:hover {
