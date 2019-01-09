@@ -30,7 +30,6 @@
 .Service-box > div {
   padding: 10px 40px;
   line-height: 1.5em;
-  font-size: 1.4em;
 }
 
 .Service-box ul {
@@ -44,7 +43,7 @@
 
 @media (max-width: 767px) {
   .Service {
-    font-size: 0.5em;
+    font-size: 0.8em;
     text-align: center;
   }
 
@@ -59,6 +58,7 @@
   .Service-box ul {
     text-align: left;
     margin: 0;
+    padding-left: 0;
   }
 
   .Service-box li {
@@ -67,6 +67,7 @@
 
   .Service-box li:before {
     content: url('../assets/pine.svg');
+    margin-right: 8px;
   }
 
   .Service-arbo h1 {

@@ -19,7 +19,6 @@
 .Company-box > div {
   padding: 10px 40px;
   line-height: 1.5em;
-  font-size: 1.4em;
 }
 
 .Contact-picture {
@@ -35,7 +34,7 @@
 
 @media (max-width: 767px) {
   .Company {
-    font-size: 0.5em;
+    font-size: 0.8em;
     text-align: center;
   }
 
