@@ -17,7 +17,7 @@
 }
 
 .Company-box > div {
-  padding: 10px 40px;
+  padding: 10px 70px;
   line-height: 1.5em;
 }
 
@@ -44,6 +44,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .Company-box > div {
+    padding: 10px 20px;
   }
 
   .Company-box h1 {
