@@ -13,6 +13,10 @@ const Contact = () => (
         <div className="Contact-inner-div">
           <div className="Contact-companyName">Arbovert</div>
           <div>Lukáš Kačer</div>
+          <div>Jirsíkova 484/6</div>
+          <div>Praha 8, 186 00</div>
+          <div>IČO 87133156</div>
+          <br />
           <div>
             <a href="tel:+420739969933">(+420) 739 969 933</a>
             <br />
