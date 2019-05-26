@@ -27,6 +27,7 @@ const Contact = () => (
           <img src={map} alt="map of czech republic" />
         </div>
       </div>
+      <br />
       <div>Působíme v Praze a Středočeském kraji</div>
       <div className="Contact-socialMedia">
         <a href="https://www.facebook.com/arbovertcz" target="_blank" rel="noopener noreferrer">
