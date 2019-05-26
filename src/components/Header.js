@@ -80,7 +80,7 @@ class Header extends Component {
                 <li>
                   <Link
                     activeClass="active"
-                    className="Header-service"
+                    className="Header-aboutUs"
                     to="company"
                     spy={true}
                     smooth={'easeInOutQuad'}

@@ -35,7 +35,7 @@ const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
     <div>
       <Link
         activeClass="active"
-        className="Header-service"
+        className="Header-aboutUs"
         to="company"
         spy={true}
         smooth={'easeInOutQuad'}
