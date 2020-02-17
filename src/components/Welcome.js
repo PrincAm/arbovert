@@ -24,10 +24,13 @@ const Welcome = () => (
       <div className="Welcome-content">
         <div className="Welcome-motto">
           <div>
-            Pomůžeme Vám se stromy,
+            Pomůžeme Vám se stromy a budovami,
             <br />i s těmi nejvyššími.
           </div>
-          <div className="Welcome-mottoSecondary">kácení, ošetřování, prořezávání</div>
+          <div className="Welcome-mottoSecondary">
+            kácení, ošetřování, prořezávání<br />
+            opravy, mytí, spárování
+          </div>
           <ArrowDown className="Welcome-arrowDown" onClick={() => scrollToService()} />
         </div>
         <div className="Welcome-message" />
