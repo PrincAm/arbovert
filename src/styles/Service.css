@@ -41,14 +41,14 @@
   line-height: 50px;
 }
 
-.Service-arbo li::before {
+.Service-arbo li:before {
   content: url('../assets/pine.svg');
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
 }
 
-.Service-upwork li::before {
+.Service-upwork li:before {
   content: url('../assets/house.svg');
   display: inline-block;
   vertical-align: middle;
@@ -61,7 +61,7 @@
     text-align: center;
   }
 
-  .Service-box {
+  .Service-container {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -69,22 +69,36 @@
     align-items: center;
   }
 
-  .Service-box > div {
+  .Service-container > div {
     padding: 10px 20px;
   }
 
-  .Service-box ul {
+  .Service-container ul {
     text-align: left;
+    list-style: none;
     margin: 0;
+    padding-top: 10px;
     padding-left: 0;
   }
 
-  .Service-box li {
-    display: flex;
+  .Service-upwork ul {
+    padding-bottom: 10px;
   }
 
-  .Service-box li:before {
+  .Service-container li {
+    line-height: 26px;
+    font-size: 16px;
+  }
+
+  .Service-arbo li:before {
     content: url('../assets/pine.svg');
+    vertical-align: -6px;
+    margin-right: 8px;
+  }
+
+  .Service-upwork li::before {
+    content: url('../assets/house.svg');
+    vertical-align: -6px;
     margin-right: 8px;
   }
 
