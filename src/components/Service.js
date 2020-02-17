@@ -5,10 +5,10 @@ import '../styles/Service.css'
 
 const Service = () => (
   <div className="Service">
-    <div className="Service-arbo">
-      <div className="Service-box">
+    <div className="Service-background">
+    <div className="Service-container">
         <h1>Arboristika</h1>
-        <div>
+        <div className="Service-arbo">
           V arboristice provádíme kompletní péči o dřeviny
           <ul>
             <li>rizikové kácení stromů</li>
@@ -16,6 +16,18 @@ const Service = () => (
             <li>zajišťovaní stromů</li>
             <li>prořezávání ovocných stromů</li>
             <li>likvidaci dřevní hmoty</li>
+          </ul>
+        </div>
+        <h1>Výškové práce</h1>
+        <div className="Service-upwork">
+          Ve výškových pracích pokrýváme v podstatě všechna povolání
+          <ul>
+            <li>opravy fasád</li>
+            <li>kompletní servis proti ptactvu</li>
+            <li>drobné klempířské a pokrývačské opravy</li>
+            <li>tlakové mytí fasád</li>
+            <li>mytí oken</li>
+            <li>opravy spár panelových domů a jiné</li>
           </ul>
           Nezávazné nacenění práce je samozřejmostí!
         </div>

@@ -1,20 +1,20 @@
 .Service {
-  color: #ece9e9;
+  color: #ffffff;
   z-index: 1;
 }
 
-.Service-arbo {
+.Service-background {
   width: 100vw;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.Service-arbo {
+.Service-background {
   background-image: url('../assets/background/service_arbo.jpg');
 }
 
-.Service-box {
+.Service-container {
   padding: 20px 0;
   min-height: 100vh;
   width: 70%;
@@ -22,23 +22,37 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.Service-box h1 {
+.Service h1 {
   margin-top: 0px;
   padding: 70px 0 0 70px;
 }
 
-.Service-box > div {
+.Service-container > div {
   padding: 10px 70px;
   line-height: 1.5em;
 }
 
-.Service-box ul {
-  margin: 5px 0 5px 35px;
-  list-style-image: url('../assets/pine.svg');
+.Service-container ul {
+  padding-top: 0;
+  list-style: none;
 }
 
-.Service-box li {
-  margin-top: 5px;
+.Service-container li {
+  line-height: 50px;
+}
+
+.Service-arbo li::before {
+  content: url('../assets/pine.svg');
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.Service-upwork li::before {
+  content: url('../assets/house.svg');
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 @media (max-width: 767px) {
@@ -74,7 +88,7 @@
     margin-right: 8px;
   }
 
-  .Service-arbo h1 {
+  .Service-background h1 {
     padding: 70px 0 0 0;
   }
 }
