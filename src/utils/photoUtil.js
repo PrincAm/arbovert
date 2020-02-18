@@ -469,7 +469,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ['(max-width: 1024) 100vw', '1024px'],
-    srcset: [`${upwork3_200} 200w`, `${upwork3_450} 450w`, `${upwork3_647} 647w`, `${upwork3_1024} 1024w`],
+    srcSet: [`${upwork3_200} 200w`, `${upwork3_450} 450w`, `${upwork3_647} 647w`, `${upwork3_1024} 1024w`],
     src: upwork3_1024,
     alt: 'upwork',
     width: 16,
@@ -477,7 +477,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ['(max-width: 511) 100vw', '511px'],
-    srcset: [`${upwork4_200} 200w`, `${upwork4_511} 511w`],
+    srcSet: [`${upwork4_200} 200w`, `${upwork4_511} 511w`],
     src: upwork4_511,
     alt: 'upwork',
     width: 3,
@@ -485,7 +485,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ['(max-width: 511) 100vw', '511px'],
-    srcset: [`${upwork5_200} 200w`, `${upwork5_511} 511w`],
+    srcSet: [`${upwork5_200} 200w`, `${upwork5_511} 511w`],
     src: upwork5_511,
     alt: 'upwork',
     width: 3,
@@ -493,7 +493,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ['(max-width: 576) 100vw', '576px'],
-    srcset: [`${upwork6_200} 200w`, `${upwork6_318} 318w`, `${upwork6_576} 576w`],
+    srcSet: [`${upwork6_200} 200w`, `${upwork6_318} 318w`, `${upwork6_576} 576w`],
     src: upwork6_576,
     alt: 'upwork',
     width: 3,
@@ -501,7 +501,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ['(max-width: 576) 100vw', '576px'],
-    srcset: [`${upwork7_200} 200w`, `${upwork7_576} 576w`],
+    srcSet: [`${upwork7_200} 200w`, `${upwork7_576} 576w`],
     src: upwork7_576,
     alt: 'upwork',
     width: 3,
@@ -509,7 +509,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ['(max-width: 576) 100vw', '576px'],
-    srcset: [`${upwork8_200} 200w`, `${upwork8_375} 375w`, `${upwork8_576} 576w`],
+    srcSet: [`${upwork8_200} 200w`, `${upwork8_375} 375w`, `${upwork8_576} 576w`],
     src: upwork8_576,
     alt: 'upwork',
     width: 3,
@@ -517,7 +517,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ['(max-width: 576) 100vw', '576px'],
-    srcset: [`${upwork9_200} 200w`, `${upwork9_576} 576w`],
+    srcSet: [`${upwork9_200} 200w`, `${upwork9_576} 576w`],
     src: upwork9_576,
     alt: 'upwork',
     width: 3,
@@ -525,7 +525,7 @@ export const PHOTOS1 = [
   },
   {
     sizes: ['(max-width: 576) 100vw', '576px'],
-    srcset: [`${upwork10_200} 200w`, `${upwork10_375} 375w`, `${upwork10_576} 576w`],
+    srcSet: [`${upwork10_200} 200w`, `${upwork10_375} 375w`, `${upwork10_576} 576w`],
     src: upwork10_576,
     alt: 'upwork',
     width: 3,

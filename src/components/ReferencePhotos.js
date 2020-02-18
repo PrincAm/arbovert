@@ -39,7 +39,7 @@ class ReferencePhotos extends Component {
     const {photos} = this.props
     const {currentImage, lightboxIsOpen} = this.state
     return (
-      <div>
+      <div className="Reference-gallery">
         {/* 320px width of iPhone 5/SE screen */}
         <Gallery photos={photos} columns={window.innerWidth > 320 ? 5 : 4} onClick={this.openLightbox} />
         <Lightbox

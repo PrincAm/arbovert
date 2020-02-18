@@ -23,6 +23,10 @@
   padding-left: 3px;
 }
 
+.Reference-gallery {
+  flex: 1;
+}
+
 @media (max-width: 767px) {
   .Reference {
     flex-direction: column;

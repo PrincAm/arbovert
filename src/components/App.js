@@ -18,7 +18,7 @@ const App = () => (
   <div className="App">
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Arbovert | Arboristika | Výškové práce | Praha</title>
+      <title>Arbovert | Arboristika a výškové práce | Praha</title>
       <meta name="description" content="Arboristika a výškové práce" />
       <meta
         name="keywords"
