@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet} from 'react-helmet'
 import Header from './Header'
 import Footer from './Footer'
 import Welcome from './Welcome'
@@ -15,6 +16,16 @@ export const Desktop = (props) => <Responsive {...props} minWidth={767} />
 
 const App = () => (
   <div className="App">
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Arbovert | Arboristika | Výškové práce | Praha</title>
+      <meta name="description" content="Arboristika a výškové práce" />
+      <meta
+        name="keywords"
+        content="hroty proti holubům,sítě proti holubům,výškové práce,práce ve výškách,mytí oken,mytí fasád čištění fasád,opravy fasád,péčě o dřeviny,likvidace dřeva,prořezávání stromů,arboristika,rizikové kácení stromů"
+      />
+      <link rel="canonical" href="https://arbovert.cz/" />
+    </Helmet>
     <Header />
 
     <Element name="welcome">
