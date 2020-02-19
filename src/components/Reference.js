@@ -4,7 +4,7 @@ import {PHOTOS1} from '../utils/photoUtil'
 import '../styles/Reference.css'
 
 const Reference = () => (
-  <div className="Reference">
+  <div className="Reference-gallery">
     <ReferencePhotos photos={PHOTOS1} />
   </div>
 )
