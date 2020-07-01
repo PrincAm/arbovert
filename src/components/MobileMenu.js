@@ -71,6 +71,9 @@ const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
         Kontakt
       </Link>
     </div>
+    <div className="MobileMenu-mobil">
+      <a href="tel:+420739969933">+420 739 969 933</a>
+    </div>
   </div>
 )
 

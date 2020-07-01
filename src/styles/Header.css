@@ -42,6 +42,7 @@
 .Header-menu ul {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
 .Header-menu li {
@@ -52,11 +53,11 @@
 
 .Header-nav a,
 .Header-logo span {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .Header-nav a {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .Header-menu a:hover {
@@ -98,6 +99,16 @@
 .change .Header-burger-bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.Header-menu-mobile {
+  background-color: #ec2b2c;
+  padding: 5px 15px;
+}
+
+.Header-menu-mobile a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {

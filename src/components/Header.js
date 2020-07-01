@@ -116,6 +116,11 @@ class Header extends Component {
                     Kontakt
                   </Link>
                 </li>
+                <li>
+                  <div className="Header-menu-mobile">
+                    <a href="tel:+420739969933">+420 739 969 933</a>
+                  </div>
+                </li>
               </ul>
             </div>
           </Desktop>

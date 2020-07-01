@@ -39,6 +39,15 @@
   padding-top: 10px;
 }
 
+.MobileMenu-mobil {
+  background-color: #ec2b2c;
+}
+
+.MobileMenu-mobil a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .visible {
   left: 0;
   opacity: 1;

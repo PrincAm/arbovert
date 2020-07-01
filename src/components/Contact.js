@@ -18,7 +18,9 @@ const Contact = () => (
           <div>IČO 87133156</div>
           <br />
           <div>
-            <a href="tel:+420739969933">(+420) 739 969 933</a>
+            <a className="Contact-mobil" href="tel:+420739969933">
+              +420 739 969 933
+            </a>
             <br />
             <a href="mailto:lukaskacer@arbovert.cz">lukaskacer@arbovert.cz</a>
           </div>
