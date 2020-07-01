@@ -4,6 +4,7 @@ import classNames from 'classnames'
 
 import {Mobile, Desktop} from './App'
 import MobileMenu from './MobileMenu'
+import {ReactComponent as PhoneLogo} from '../assets/phone.svg'
 import logo from '../assets/arbovert_logo.png'
 import '../styles/Header.css'
 
@@ -118,6 +119,7 @@ class Header extends Component {
                 </li>
                 <li>
                   <div className="Header-menu-mobile">
+                    <PhoneLogo />
                     <a href="tel:+420739969933">+420 739 969 933</a>
                   </div>
                 </li>

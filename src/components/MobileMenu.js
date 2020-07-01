@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {Link} from 'react-scroll'
 import '../styles/MobileMenu.css'
+import {ReactComponent as PhoneLogo} from '../assets/phone.svg'
 
 const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
   <div className={menuClassName}>
@@ -71,7 +72,8 @@ const MobileMenu = ({onHandleMobilMenu, menuClassName}) => (
         Kontakt
       </Link>
     </div>
-    <div className="MobileMenu-mobil">
+    <div className="MobileMenu-mobile">
+      <PhoneLogo />
       <a href="tel:+420739969933">+420 739 969 933</a>
     </div>
   </div>

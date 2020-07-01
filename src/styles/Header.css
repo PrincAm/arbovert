@@ -102,13 +102,21 @@
 }
 
 .Header-menu-mobile {
+  display: flex;
+  align-items: center;
   background-color: #ec2b2c;
-  padding: 5px 15px;
+  padding: 8px 18px;
+}
+
+.Header-menu-mobile svg {
+  width: 25px;
+  height: 25px;
 }
 
 .Header-menu-mobile a {
   color: #ffffff;
   text-decoration: none;
+  margin-left: 8px;
 }
 
 @media (max-width: 767px) {

@@ -2,6 +2,7 @@ import React from 'react'
 
 import map from '../assets/map.png'
 import {ReactComponent as FacebookIcon} from '../assets/facebook.svg'
+import {ReactComponent as PhoneLogo} from '../assets/phone.svg'
 
 import '../styles/Contact.css'
 
@@ -18,10 +19,10 @@ const Contact = () => (
           <div>IČO 87133156</div>
           <br />
           <div>
-            <a className="Contact-mobil" href="tel:+420739969933">
-              +420 739 969 933
-            </a>
-            <br />
+            <div className="Contact-mobile">
+              <PhoneLogo />
+              <a href="tel:+420739969933">+420 739 969 933</a>
+            </div>
             <a href="mailto:lukaskacer@arbovert.cz">lukaskacer@arbovert.cz</a>
           </div>
         </div>

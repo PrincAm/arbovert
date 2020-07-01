@@ -39,13 +39,22 @@
   padding-top: 10px;
 }
 
-.MobileMenu-mobil {
+.MobileMenu-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #ec2b2c;
 }
 
-.MobileMenu-mobil a {
+.MobileMenu-mobile svg {
+  width: 25px;
+  height: 25px;
+}
+
+.MobileMenu-mobile a {
   color: #ffffff;
   text-decoration: none;
+  margin-left: 8px;
 }
 
 .visible {
