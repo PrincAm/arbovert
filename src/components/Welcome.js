@@ -6,7 +6,7 @@ import {scroller} from 'react-scroll'
 import '../styles/Welcome.css'
 
 const scrollToService = () => {
-  scroller.scrollTo('service', {duration: 2000, delay: 100, smooth: 'easeInOutQuad'})
+  scroller.scrollTo('service', {duration: 500, delay: 100, smooth: 'easeInOutQuad'})
 }
 
 const Welcome = () => (
@@ -28,7 +28,8 @@ const Welcome = () => (
             <br />i s těmi nejvyššími.
           </div>
           <div className="Welcome-mottoSecondary">
-            kácení, ošetřování, prořezávání<br />
+            kácení, ošetřování, prořezávání
+            <br />
             opravy, mytí, spárování
           </div>
           <ArrowDown className="Welcome-arrowDown" onClick={() => scrollToService()} />

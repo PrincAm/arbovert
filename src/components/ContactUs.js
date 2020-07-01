@@ -5,7 +5,7 @@ import {ReactComponent as ArrowDown} from '../assets/arrow_down.svg'
 import '../styles/ContactUs.css'
 
 const scrollToContact = () => {
-  scroller.scrollTo('contact', {duration: 1500, delay: 100, smooth: true})
+  scroller.scrollTo('contact', {duration: 1000, delay: 100, smooth: true})
 }
 
 const ContactUs = () => (
