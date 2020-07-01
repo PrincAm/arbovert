@@ -105,4 +105,8 @@
   .Contact-upperDiv {
     flex-direction: column;
   }
+
+  .Contact-mobile {
+    justify-content: center;
+  }
 }

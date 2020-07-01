@@ -57,6 +57,13 @@
   margin-left: 8px;
 }
 
+.MobileMenu-mobile a:hover {
+  transition: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
 .visible {
   left: 0;
   opacity: 1;

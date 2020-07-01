@@ -2,11 +2,13 @@ import React from 'react'
 
 import ContactUs from './ContactUs'
 
-import dachshund_200 from '../assets/profil/dachshund_s0ekqe_c_scale,w_200.jpg'
-import dachshund_394 from '../assets/profil/dachshund_s0ekqe_c_scale,w_394.jpg'
-import dachshund_535 from '../assets/profil/dachshund_s0ekqe_c_scale,w_535.jpg'
-import dachshund_655 from '../assets/profil/dachshund_s0ekqe_c_scale,w_655.jpg'
-import dachshund_706 from '../assets/profil/dachshund_s0ekqe_c_scale,w_706.jpg'
+import chainaxe_200 from '../assets/profil/chainaxe_pnop4v_c_scale,w_200.jpg'
+import chainaxe_347 from '../assets/profil/chainaxe_pnop4v_c_scale,w_347.jpg'
+import chainaxe_454 from '../assets/profil/chainaxe_pnop4v_c_scale,w_454.jpg'
+import chainaxe_546 from '../assets/profil/chainaxe_pnop4v_c_scale,w_546.jpg'
+import chainaxe_627 from '../assets/profil/chainaxe_pnop4v_c_scale,w_627.jpg'
+import chainaxe_698 from '../assets/profil/chainaxe_pnop4v_c_scale,w_698.jpg'
+import chainaxe_771 from '../assets/profil/chainaxe_pnop4v_c_scale,w_771.jpg'
 import '../styles/Company.css'
 
 const Service = () => {
@@ -19,12 +21,14 @@ const Service = () => {
             <img
               sizes="(max-width: 1400px) 100vw, 1400px"
               srcSet={`
-                ${dachshund_200} 200w,
-                ${dachshund_394} 706w,
-                ${dachshund_535} 1025w,
-                ${dachshund_655} 1278w,
-                ${dachshund_706} 1400w`}
-              src={dachshund_535}
+                ${chainaxe_200} 200w,
+                ${chainaxe_347} 347w,
+                ${chainaxe_454} 454w,
+                ${chainaxe_546} 546w,
+                ${chainaxe_627} 627w,
+                ${chainaxe_698} 698w,
+                ${chainaxe_771} 771w`}
+              src={chainaxe_546}
               alt="dachshund"
             />
           </picture>
