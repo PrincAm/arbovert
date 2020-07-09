@@ -23,7 +23,9 @@ const Contact = () => (
               <PhoneLogo />
               <a href="tel:+420739969933">+420 739 969 933</a>
             </div>
-            <a href="mailto:lukaskacer@arbovert.cz">lukaskacer@arbovert.cz</a>
+            <a href="mailto:lukaskacer@arbovert.cz" target="_blank" rel="noopener noreferrer">
+              lukaskacer@arbovert.cz
+            </a>
           </div>
         </div>
         <div className="Contact-map">
