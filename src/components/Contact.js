@@ -31,7 +31,7 @@ const Contact = () => (
         </div>
       </div>
       <br />
-      <div>Působíme v Praze a Středočeském kraji</div>
+      <div>Působíme v celých Čechách!</div>
       <div className="Contact-socialMedia">
         <a href="https://www.facebook.com/arbovertcz" target="_blank" rel="noopener noreferrer">
           <FacebookIcon className="Contact-facebook" />
