@@ -8,8 +8,9 @@
   </head>
 
   <body>
-    <form name="contact" netlify method="post" enctype="multipart/form-data" action="/thanks/">
-      <input type="text" name="example" /> <input type="text" name="exampleRequired" />
+    <form name="contact" netlify method="post" enctype="multipart/form-data">
+      <input type="text" name="name" /><input type="text" name="email" /><input type="text" name="phone" />
+      <textarea name="problem"></textarea><input type="checkbox" name="gdprAgreement" />
     </form>
   </body>
 </html>

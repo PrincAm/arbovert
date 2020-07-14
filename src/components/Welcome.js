@@ -1,7 +1,7 @@
 import React from 'react'
 import {Desktop} from './App'
 import {ReactComponent as ArrowDown} from '../assets/arrow_down.svg'
-import {scroller} from 'react-scroll'
+import {scroller, Link} from 'react-scroll'
 
 import '../styles/Welcome.css'
 
@@ -25,14 +25,26 @@ const Welcome = () => (
         <div className="Welcome-motto">
           <div>
             Pomůžeme Vám se stromy a budovami,
-            <br />i s těmi nejvyššími.
+            <br />i s těmi nejvyššími
           </div>
           <div className="Welcome-mottoSecondary">
             kácení, ošetřování, prořezávání
             <br />
             opravy, mytí, spárování
           </div>
-          <ArrowDown className="Welcome-arrowDown" onClick={() => scrollToService()} />
+          <div className="Welcome-links">
+            <ArrowDown className="Welcome-arrowDown" onClick={() => scrollToService()} />
+            <Link
+              className="Welcome-formLink"
+              to="form"
+              spy={true}
+              smooth={'easeInOutQuad'}
+              duration={1500}
+              delay={100}
+              offset={-80}>
+              Poptávka
+            </Link>
+          </div>
         </div>
         <div className="Welcome-message" />
       </div>

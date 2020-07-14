@@ -50,6 +50,7 @@
   height: 60px;
   width: 60px;
   color: #ec2b2c;
+  margin-right: 0.5em;
 }
 
 .Welcome-arrowDown:hover {
@@ -104,6 +105,29 @@
 .Welcome-bg span:nth-child(4) {
   background-image: url('../assets/background/background4.jpg');
   animation-delay: 30s;
+}
+
+.Welcome-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Welcome-formLink {
+  background-color: #ece9e9;
+  color: #1d2120;
+  border-radius: 4px;
+  padding: 0.6em 1.5em;
+  line-height: 1.2em;
+  font-size: 0.4em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.Welcome-formLink:hover {
+  cursor: pointer;
+  background-color: #ec2b2c;
+  color: #ece9e9;
 }
 
 @keyframes imageAnimation {

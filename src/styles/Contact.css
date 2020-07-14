@@ -72,11 +72,110 @@
   margin-left: 0.3em;
 }
 
+.Contact-formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contact-inputs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Contact-input-tel {
+  margin-right: 0 !important;
+}
+
+.Contact-inputWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.Contact-input {
+  border-radius: 4px;
+  height: 2.5em;
+  margin-right: 0.8em;
+  margin-top: 0.2em;
+  padding: 0.2em 0.8em;
+  border: 1px solid #1d2120;
+}
+
+.Contact-textAreaWrapper {
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.Contact-textArea {
+  border-radius: 4px;
+  padding: 1em 0.8em;
+  margin-top: 0.2em;
+  border: 1px solid #1d2120;
+  resize: vertical;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Contact-maxWidth {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.Contaxt-gdprLabel {
+  font-size: 0.5em;
+}
+
+.Contaxt-gdprLabelWrapper {
+  line-height: 0.5em;
+}
+
+.Contaxt-gdprCheckbox {
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+
+.Contact-gdpr {
+  line-height: 0.6em;
+  display: flex;
+  margin: 0.5em 0;
+}
+
+.Contact-input-error {
+  font-size: 0.5em;
+  color: #ec2b2c;
+  margin-top: 0.2em;
+}
+
+.Contact-button {
+  padding: 0.5em 1.5em;
+  line-height: 1.2em;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 4px;
+}
+
+.Contact-button:hover {
+  cursor: pointer;
+  background-color: #ec2b2c;
+  color: #ece9e9;
+}
+
+.Contact-formThank {
+  margin-top: 1.2em;
+}
+
 @media (max-width: 767px) {
   .Contact {
     padding: 0;
     font-size: 0.8em;
-    background: center no-repeat url('../assets/background/background1.jpg');
+    background: center url('../assets/background/background1.jpg');
   }
 
   .Contact-content {
@@ -108,5 +207,18 @@
 
   .Contact-mobile {
     justify-content: center;
+  }
+
+  .Contact-inputs {
+    flex-direction: column;
+  }
+
+  .Contact-input {
+    margin-right: 0;
+  }
+
+  .Contact-inputWrapper,
+  .Contaxt-gdprLabelWrapper {
+    text-align: left;
   }
 }

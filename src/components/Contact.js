@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {useForm} from 'react-hook-form'
+import {Element} from 'react-scroll'
 
 import map from '../assets/map.png'
 import {ReactComponent as FacebookIcon} from '../assets/facebook.svg'
@@ -15,14 +16,9 @@ const encode = (data) => {
 
 const Contact = () => {
   const {register, handleSubmit, errors} = useForm()
+  const [isFormSent, setFormSent] = useState(false)
 
   const onSubmit = (data) => {
-    console.log(data)
-    const test = encode({
-      'form-name': 'contact',
-      ...data
-    })
-    console.log(test)
     fetch('/', {
       method: 'POST',
       headers: {'Content-Type': 'application/x-www-form-urlencoded'},
@@ -30,9 +26,7 @@ const Contact = () => {
         'form-name': 'contact',
         ...data
       })
-    })
-      .then(() => console.log('SENT!'))
-      .catch((error) => alert(error))
+    }).then(() => setFormSent(true))
   }
 
   return (
@@ -63,23 +57,62 @@ const Contact = () => {
         </div>
         <br />
         <div>Působíme v celých Čechách!</div>
-        <form
-          name="contact"
-          method="post"
-          action="/thanks/"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          onSubmit={handleSubmit(onSubmit)}>
-          {/* register your input into the hook by invoking the "register" function */}
-          <input name="example" defaultValue="test" ref={register} />
-
-          {/* include validation with required or other standard HTML validation rules */}
-          <input name="exampleRequired" ref={register({required: true})} />
-          {/* errors will return when field validation fails  */}
-          {errors.exampleRequired && <span>This field is required</span>}
-
-          <input type="submit" />
-        </form>
+        <div className="Contact-formWrapper Contact-maxWidth">
+          <Element name="form">
+            {isFormSent ? (
+              <div className="Contact-formThank">Děkujeme Vám za dotaz! Budeme Vás brzy kontaktovat.</div>
+            ) : (
+              <>
+                <h2>Nebo nás kontaktujte pomocí formuláře</h2>
+                <form
+                  name="contact"
+                  method="post"
+                  action="/thanks/"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
+                  onSubmit={handleSubmit(onSubmit)}
+                  className="Contact-form">
+                  <div className="Contact-inputs">
+                    <div className="Contact-inputWrapper">
+                      <label>Jméno*</label>
+                      <input name="name" ref={register({required: true})} className="Contact-input" />
+                      {errors.name && <span className="Contact-input-error">Jméno je povinné</span>}
+                    </div>
+                    <div className="Contact-inputWrapper">
+                      <label>Email*</label>
+                      <input name="email" type="email" ref={register({required: true})} className="Contact-input" />
+                      {errors.email && <span className="Contact-input-error">Email je povinný</span>}
+                    </div>
+                    <div className="Contact-inputWrapper">
+                      <label>Telefon</label>
+                      <input name="phone" ref={register} className="Contact-input Contact-input-tel" />
+                    </div>
+                  </div>
+                  <div className="Contact-inputWrapper Contact-textAreaWrapper">
+                    <label>Seznamte nás s vaším problémem</label>
+                    <textarea name="problem" ref={register} className="Contact-textArea" rows={12} />
+                  </div>
+                  <div className="Contact-gdpr">
+                    <input
+                      type="checkbox"
+                      name="gdprAgreement"
+                      ref={register({required: true})}
+                      className="Contaxt-gdprCheckbox"
+                    />
+                    <div className="Contaxt-gdprLabelWrapper">
+                      <label className="Contaxt-gdprLabel">
+                        Souhlasím, že dle evropské směrnice GDPR, veškeré mnou vložené údaje mohou být poskytovány
+                        třetím stránám jen po mém souhlasu.*
+                      </label>
+                      {errors.gdprAgreement && <div className="Contact-input-error">Souhlas je povinný</div>}
+                    </div>
+                  </div>
+                  <input type="submit" value="Odeslat" className="Contact-button" />
+                </form>
+              </>
+            )}
+          </Element>
+        </div>
         <div className="Contact-socialMedia">
           <a href="https://www.facebook.com/arbovertcz" target="_blank" rel="noopener noreferrer">
             <FacebookIcon className="Contact-facebook" />
