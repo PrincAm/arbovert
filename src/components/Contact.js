@@ -46,8 +46,8 @@ const Contact = () => {
                 <PhoneLogo />
                 <a href="tel:+420739969933">+420 739 969 933</a>
               </div>
-              <a href="mailto:lukaaskacer@gmail.com" target="_blank" rel="noopener noreferrer">
-                lukaaskacer@gmail.com
+              <a href="mailto:info@arbovert.cz" target="_blank" rel="noopener noreferrer">
+                info@arbovert.cz
               </a>
             </div>
           </div>
