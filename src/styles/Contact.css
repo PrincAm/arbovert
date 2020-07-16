@@ -137,8 +137,10 @@
 }
 
 .Contaxt-gdprCheckbox {
-  margin-top: 0.5em;
+  margin-top: 0.2em;
   margin-right: 0.5em;
+  height: 1.5em;
+  width: 1.5em;
 }
 
 .Contact-gdpr {
@@ -159,12 +161,13 @@
   font-size: 0.8em;
   border: none;
   border-radius: 4px;
+  background-color: #ffffff;
 }
 
 .Contact-button:hover {
   cursor: pointer;
   background-color: #ec2b2c;
-  color: #ece9e9;
+  color: #ffffff;
 }
 
 .Contact-formThank {
@@ -220,5 +223,13 @@
   .Contact-inputWrapper,
   .Contaxt-gdprLabelWrapper {
     text-align: left;
+  }
+
+  .Contaxt-gdprCheckbox {
+    width: 3.5em;
+  }
+
+  .Contact-button {
+    -webkit-appearance: none;
   }
 }
