@@ -58,7 +58,7 @@ class Header extends Component {
                     to="welcome"
                     spy={true}
                     smooth={'easeInOutQuad'}
-                    duration={1500}
+                    duration={500}
                     delay={100}
                     offset={-80}
                     onClick={this.handleOpenMenu}>
@@ -72,7 +72,7 @@ class Header extends Component {
                     to="service"
                     spy={true}
                     smooth={'easeInOutQuad'}
-                    duration={1500}
+                    duration={500}
                     delay={100}
                     onClick={this.handleOpenMenu}>
                     Služby
@@ -85,7 +85,7 @@ class Header extends Component {
                     to="company"
                     spy={true}
                     smooth={'easeInOutQuad'}
-                    duration={1500}
+                    duration={500}
                     delay={100}
                     onClick={this.handleOpenMenu}>
                     O nás
@@ -98,7 +98,7 @@ class Header extends Component {
                     to="reference"
                     spy={true}
                     smooth={'easeInOutQuad'}
-                    duration={1500}
+                    duration={500}
                     delay={100}
                     onClick={this.handleOpenMenu}>
                     Fotky práce
@@ -111,7 +111,7 @@ class Header extends Component {
                     to="contact"
                     spy={true}
                     smooth={'easeInOutQuad'}
-                    duration={1500}
+                    duration={500}
                     delay={100}
                     onClick={this.handleOpenMenu}>
                     Kontakt
