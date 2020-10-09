@@ -35,11 +35,11 @@ const Contact = () => {
         <h1>Kontaktujte nás</h1>
         <div className="Contact-upperDiv">
           <div className="Contact-inner-div">
-            <div className="Contact-companyName">Arbovert</div>
+            <div className="Contact-companyName">ARBOVERT s.r.o.</div>
             <div>Lukáš Kačer</div>
-            <div>Jirsíkova 484/6</div>
-            <div>Praha 8, 186 00</div>
-            <div>IČO 87133156</div>
+            <div>Pasovská 84/37</div>
+            <div>Vimperk, 38501</div>
+            <div>IČO 2059690</div>
             <br />
             <div>
               <div className="Contact-mobile">
