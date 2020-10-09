@@ -30,7 +30,7 @@ const Welcome = () => (
           <div className="Welcome-mottoSecondary">
             kácení, ošetřování, prořezávání
             <br />
-            opravy, mytí, spárování
+            opravy, mytí, nátěry
           </div>
           <div className="Welcome-links">
             <ArrowDown className="Welcome-arrowDown" onClick={() => scrollToService()} />
