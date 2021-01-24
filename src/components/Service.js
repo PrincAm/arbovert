@@ -51,6 +51,7 @@ const Service = () => (
             srcSet={`${arbo2_200} 200w,${arbo2_433} 433w`}
             src={arbo2_200}
             type="image/webp" />
+            <source src={arbo2_200_jpg} type="image/jpeg" />
           <img
             height={400}
             src={arbo2_200_jpg}
@@ -84,6 +85,7 @@ const Service = () => (
             srcSet={`${upWork1_200} 200w,${upWork1_511} 511w`}
             src={upWork1_200} 
             type="image/webp" />
+          <source src={upWork1_200_jpg} type="image/jpeg" />
           <img
             height={430}
             src={upWork1_200_jpg}

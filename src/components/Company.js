@@ -2,6 +2,7 @@ import React from 'react'
 
 import chainaxe_200 from '../assets/profil/chainaxe_pnop4v_c_scale,w_200.webp'
 import chainaxe_347 from '../assets/profil/chainaxe_pnop4v_c_scale,w_347.webp'
+import chainiaxe_200_jpg from '../assets/profil/chainaxe_pnop4v_c_scale,w_200.jpg'
 import '../styles/Company.css'
 
 const Service = () => {
@@ -11,12 +12,16 @@ const Service = () => {
         <h1>Arbovert</h1>
         <div>
           <picture className="Contact-picture">
-            <img
+            <source
               sizes="(max-width: 347px) 100vw, 347px"
               srcSet={`
                 ${chainaxe_200} 200w,
                 ${chainaxe_347} 347w`}
               src={chainaxe_347}
+              type="image/webp" />
+              <source src={chainiaxe_200_jpg} type="image/jpeg" />
+            <img
+              src={chainiaxe_200_jpg}
               alt="chain axe"
             />
           </picture>
