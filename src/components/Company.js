@@ -19,7 +19,7 @@ const Service = () => {
                 ${chainaxe_347} 347w`}
               src={chainaxe_347}
               type="image/webp" />
-              <source src={chainiaxe_200_jpg} type="image/jpeg" />
+            <source src={chainiaxe_200_jpg} type="image/jpeg" />
             <img
               src={chainiaxe_200_jpg}
               alt="chain axe"

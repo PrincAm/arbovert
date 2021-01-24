@@ -3,6 +3,7 @@ import {useForm} from 'react-hook-form'
 
 import map_200 from '../assets/map/map_vbd5mu_c_scale,w_200.webp'
 import map_419 from '../assets/map/map_vbd5mu_c_scale,w_419.webp'
+import map_200_png from '../assets/map/map.png'
 import {ReactComponent as FacebookIcon} from '../assets/facebook.svg'
 import {ReactComponent as PhoneLogo} from '../assets/phone.svg'
 
@@ -59,12 +60,17 @@ const Contact = () => {
             </div>
           </div>
           <div className="Contact-map">
-            <img
-              sizes="(max-width: 419px) 100vw, 419px"
-              srcset={`${map_200} 200w, ${map_419} 419w`}
-              src={map_419}
-              alt="map of czech republic"
-            />
+            <picture>
+              <source 
+                sizes="(max-width: 419px) 100vw, 419px"
+                srcSet={`${map_200} 200w, ${map_419} 419w`}
+                src={map_419}/>
+              <source src={map_200_png} type="image/jpeg" />
+              <img
+                src={map_200_png}
+                alt="map of czech republic"
+              />
+            </picture>
           </div>
         </div>
         <br />

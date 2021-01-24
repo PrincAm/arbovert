@@ -110,7 +110,7 @@
     padding-right: 0;
   }
 
-  .Service-images img:last-of-type {
+  .Service-images picture:last-of-type {
     display: none;
   }
 }

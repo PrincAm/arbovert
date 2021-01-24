@@ -98,6 +98,7 @@ const Service = () => (
             srcSet={`${upWork2_200} 200w,${upWork2_511} 511w`}
             src={upWork2_200} 
             type="image/webp" />
+          <source src={upWork2_200_jpg} type="image/jpeg" />
           <img
             height={430}
             src={upWork2_200_jpg}
