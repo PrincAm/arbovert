@@ -1,19 +1,15 @@
 .Contact {
-  padding: 50px 50px;
-  height: 100%;
-  width: 100vw;
-  min-height: 560px;
-  position: relative;
   color: #ece9e9;
 }
 
 .Contact-content {
-  margin-top: 80px;
   display: flex;
   flex-direction: column;
-  font-size: 1.2em;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 30px 30px 30px 30px;
+  padding: 4em 8em;
+}
+
+.Contact-content h1 {
+  margin-top: 0px;
 }
 
 .Contact-content a {
@@ -44,8 +40,9 @@
 }
 
 .Contact-socialMedia {
-  padding: 50px;
-  text-align: center;
+  margin-left: 1.5em;
+  display: flex;
+  align-items: center;
 }
 
 .Contact-socialMedia img {
@@ -55,6 +52,12 @@
 
 .Contact-facebook:hover {
   background-color: #4267b2;
+}
+
+.Contact-contacts {
+  display: flex;
+
+  font-size: 1.3em;
 }
 
 .Contact-mobile {
@@ -176,23 +179,24 @@
 
 @media (max-width: 767px) {
   .Contact {
-    padding: 0;
     font-size: 0.8em;
-    background: #453f3d;
   }
 
   .Contact-content {
-    margin-top: 0;
-    height: 100%;
-    min-height: 100vh;
     text-align: center;
-    background: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 1em;
+  }
+
+  .Contact-contacts {
     flex-direction: column;
     align-items: center;
   }
 
-  .Contact-content h1 {
-    padding-top: 20px;
+  .Contact-socialMedia {
+    margin-top: 1em;
+    margin-left: 0;
   }
 
   .Contact-inner-div,
@@ -201,7 +205,7 @@
   }
 
   .Contact-map {
-    padding: 20px 0;
+    padding: 2em 0;
   }
 
   .Contact-upperDiv {

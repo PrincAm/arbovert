@@ -1,12 +1,6 @@
 {
-  "extends": [
-    "react-app"
-  ],
-  "plugins": [
-    "react",
-    "flowtype",
-    "import"
-  ],
+  "extends": ["react-app"],
+  "plugins": ["react", "flowtype", "import"],
   "env": {
     "es6": true,
     "browser": true,

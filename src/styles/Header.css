@@ -58,14 +58,13 @@
 
 .Header-nav a {
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.Header-menu a:hover {
-  transition: all 0.3s cubic-bezier(0, 0, 0.23, 1);
-}
-
-.Header-menu .active {
-  color: #ec2b2c;
+.Header-nav a:active,
+.Header-nav a:visited,
+.Header-nav a:focus {
+  color: #ece9e9;
 }
 
 .Header-burger {

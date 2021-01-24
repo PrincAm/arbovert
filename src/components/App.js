@@ -5,10 +5,9 @@ import Footer from './Footer'
 import Welcome from './Welcome'
 import Contact from './Contact'
 import Company from './Company'
-import Reference from './Reference'
 import Service from './Service'
-import {Element} from 'react-scroll'
 import Responsive from 'react-responsive'
+
 import '../styles/App.css'
 
 export const Mobile = (props) => <Responsive {...props} maxWidth={767} />
@@ -28,25 +27,21 @@ const App = () => (
     </Helmet>
     <Header />
 
-    <Element name="welcome">
+    <div id="domu">
       <Welcome />
-    </Element>
+    </div>
 
-    <Element name="service">
+    <div id="sluzby">
       <Service />
-    </Element>
+    </div>
 
-    <Element name="company">
+    <div id="o-nas">
       <Company />
-    </Element>
+    </div>
 
-    <Element name="reference">
-      <Reference />
-    </Element>
-
-    <Element name="contact">
+    <div id="kontakt">
       <Contact />
-    </Element>
+    </div>
 
     <Footer />
   </div>

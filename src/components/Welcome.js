@@ -1,25 +1,14 @@
 import React from 'react'
-import {Desktop} from './App'
+import {BrowserRouter as Router} from 'react-router-dom'
+import {NavHashLink} from 'react-router-hash-link'
+
 import {ReactComponent as ArrowDown} from '../assets/arrow_down.svg'
-import {scroller, Link} from 'react-scroll'
 
 import '../styles/Welcome.css'
 
-const scrollToService = () => {
-  scroller.scrollTo('service', {duration: 500, delay: 100, smooth: 'easeInOutQuad'})
-}
-
 const Welcome = () => (
   <div className="Welcome">
-    <Desktop>
-      <div className="Welcome-bg">
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-      </div>
-    </Desktop>
+    <div className="Welcome-bg" />
     <div className="Welcome-container">
       <div className="Welcome-content">
         <div className="Welcome-motto">
@@ -33,17 +22,14 @@ const Welcome = () => (
             opravy, mytí, nátěry
           </div>
           <div className="Welcome-links">
-            <ArrowDown className="Welcome-arrowDown" onClick={() => scrollToService()} />
-            <Link
-              className="Welcome-formLink"
-              to="form"
-              spy={true}
-              smooth={'easeInOutQuad'}
-              duration={1500}
-              delay={100}
-              offset={-80}>
-              Poptávka
-            </Link>
+            <Router>
+              <NavHashLink className="Welcome-serviceLink" to="/#sluzby" smooth>
+                <ArrowDown className="Welcome-arrowDown" />
+              </NavHashLink>
+              <NavHashLink className="Welcome-formLink" to="/#kontakt" smooth>
+                Poptávka
+              </NavHashLink>
+            </Router>
           </div>
         </div>
         <div className="Welcome-message" />

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
-import {Link, scroller} from 'react-scroll'
 import classNames from 'classnames'
+import {BrowserRouter as Router} from 'react-router-dom'
+import {NavHashLink} from 'react-router-hash-link'
 
 import {Mobile, Desktop} from './App'
 import MobileMenu from './MobileMenu'
@@ -11,13 +12,6 @@ import '../styles/Header.css'
 class Header extends Component {
   state = {
     mobileMenuIsOpen: false
-  }
-
-  handleScrollToWelcome = () => {
-    scroller.scrollTo('welcome', {duration: 2000, delay: 100, smooth: 'easeInOutQuad', offset: -80})
-    this.setState({
-      mobileMenuIsOpen: false
-    })
   }
 
   handleToggleMobilMenu = () => {
@@ -32,102 +26,63 @@ class Header extends Component {
     const mobileMenuClassName = classNames('MobileMenu', {visible: mobileMenuIsOpen})
 
     return (
-      <div className="Header">
-        <nav className="Header-nav">
-          <div className="Header-logo">
-            <span onClick={this.handleScrollToWelcome}>
-              <img src={logo} alt="logo arbovert" />
-            </span>
-          </div>
-          <div className="Header-spacer" />
-          <Mobile>
-            <div className={burgerIconClassName} onClick={this.handleToggleMobilMenu}>
-              <div className="Header-burger-bar1" />
-              <div className="Header-burger-bar2" />
-              <div className="Header-burger-bar3" />
+      <Router>
+        <div className="Header">
+          <nav className="Header-nav">
+            <div className="Header-logo">
+              <NavHashLink to="/#" smooth>
+                <img src={logo} alt="logo arbovert" />
+              </NavHashLink>
             </div>
-            <MobileMenu menuClassName={mobileMenuClassName} onHandleMobilMenu={this.handleToggleMobilMenu} />
-          </Mobile>
-          <Desktop>
-            <div className="Header-menu">
-              <ul>
-                <li>
-                  <Link
-                    activeClass="active"
-                    className="Header-welcome"
-                    to="welcome"
-                    spy={true}
-                    smooth={'easeInOutQuad'}
-                    duration={500}
-                    delay={100}
-                    offset={-80}
-                    onClick={this.handleOpenMenu}>
-                    Domů
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    activeClass="active"
-                    className="Header-service"
-                    to="service"
-                    spy={true}
-                    smooth={'easeInOutQuad'}
-                    duration={500}
-                    delay={100}
-                    onClick={this.handleOpenMenu}>
-                    Služby
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    activeClass="active"
-                    className="Header-aboutUs"
-                    to="company"
-                    spy={true}
-                    smooth={'easeInOutQuad'}
-                    duration={500}
-                    delay={100}
-                    onClick={this.handleOpenMenu}>
-                    O nás
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    activeClass="active"
-                    className="Header-reference"
-                    to="reference"
-                    spy={true}
-                    smooth={'easeInOutQuad'}
-                    duration={500}
-                    delay={100}
-                    onClick={this.handleOpenMenu}>
-                    Fotky práce
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    activeClass="active"
-                    className="Header-contact"
-                    to="contact"
-                    spy={true}
-                    smooth={'easeInOutQuad'}
-                    duration={500}
-                    delay={100}
-                    onClick={this.handleOpenMenu}>
-                    Kontakt
-                  </Link>
-                </li>
-                <li>
-                  <div className="Header-menu-mobile">
-                    <PhoneLogo />
-                    <a href="tel:+420739969933">+420 739 969 933</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </Desktop>
-        </nav>
-      </div>
+            <div className="Header-spacer" />
+            <Mobile>
+              <div className={burgerIconClassName} onClick={this.handleToggleMobilMenu}>
+                <div className="Header-burger-bar1" />
+                <div className="Header-burger-bar2" />
+                <div className="Header-burger-bar3" />
+              </div>
+              <MobileMenu menuClassName={mobileMenuClassName} onHandleMobilMenu={this.handleToggleMobilMenu} />
+            </Mobile>
+            <Desktop>
+              <div className="Header-menu">
+                <ul>
+                  <li>
+                    <NavHashLink to="/#" smooth>
+                      Domů
+                    </NavHashLink>
+                  </li>
+                  <li>
+                    <NavHashLink to="/#arboristika" smooth>
+                      Arboristika
+                    </NavHashLink>
+                  </li>
+                  <li>
+                    <NavHashLink to="/#vyskove-prace" smooth>
+                      Výškové práce
+                    </NavHashLink>
+                  </li>
+                  <li>
+                    <NavHashLink to="/#o-nas" smooth>
+                      O nás
+                    </NavHashLink>
+                  </li>
+                  <li>
+                    <NavHashLink to="/#kontakt" smooth>
+                      Kontakt
+                    </NavHashLink>
+                  </li>
+                  <li>
+                    <div className="Header-menu-mobile">
+                      <PhoneLogo />
+                      <a href="tel:+420739969933">+420 739 969 933</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </Desktop>
+          </nav>
+        </div>
+      </Router>
     )
   }
 }

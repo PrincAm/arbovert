@@ -1,14 +1,7 @@
 import React from 'react'
 
-import ContactUs from './ContactUs'
-
-import chainaxe_200 from '../assets/profil/chainaxe_pnop4v_c_scale,w_200.jpg'
-import chainaxe_347 from '../assets/profil/chainaxe_pnop4v_c_scale,w_347.jpg'
-import chainaxe_454 from '../assets/profil/chainaxe_pnop4v_c_scale,w_454.jpg'
-import chainaxe_546 from '../assets/profil/chainaxe_pnop4v_c_scale,w_546.jpg'
-import chainaxe_627 from '../assets/profil/chainaxe_pnop4v_c_scale,w_627.jpg'
-import chainaxe_698 from '../assets/profil/chainaxe_pnop4v_c_scale,w_698.jpg'
-import chainaxe_771 from '../assets/profil/chainaxe_pnop4v_c_scale,w_771.jpg'
+import chainaxe_200 from '../assets/profil/chainaxe_pnop4v_c_scale,w_200.webp'
+import chainaxe_347 from '../assets/profil/chainaxe_pnop4v_c_scale,w_347.webp'
 import '../styles/Company.css'
 
 const Service = () => {
@@ -19,17 +12,12 @@ const Service = () => {
         <div>
           <picture className="Contact-picture">
             <img
-              sizes="(max-width: 1400px) 100vw, 1400px"
+              sizes="(max-width: 347px) 100vw, 347px"
               srcSet={`
                 ${chainaxe_200} 200w,
-                ${chainaxe_347} 347w,
-                ${chainaxe_454} 454w,
-                ${chainaxe_546} 546w,
-                ${chainaxe_627} 627w,
-                ${chainaxe_698} 698w,
-                ${chainaxe_771} 771w`}
-              src={chainaxe_546}
-              alt="dachshund"
+                ${chainaxe_347} 347w`}
+              src={chainaxe_347}
+              alt="chain axe"
             />
           </picture>
           Náš Arbovert se již od roku 2013 zabývá arboristikou, kompletní péčí o dřeviny a výškovými pracemi všeho
@@ -39,7 +27,6 @@ const Service = () => {
           Zakládáme si na odbornosti našich lidí a naším cílem je se zdokonalovat a zlepšovat v pracích, u kterých
           ostatní tápají.
         </div>
-        <ContactUs />
       </div>
     </div>
   )
