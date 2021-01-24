@@ -64,7 +64,8 @@ const Contact = () => {
               <source 
                 sizes="(max-width: 419px) 100vw, 419px"
                 srcSet={`${map_200} 200w, ${map_419} 419w`}
-                src={map_419}/>
+                src={map_419}
+                type="image/webp" />
               <source src={map_200_png} type="image/png" />
               <img
                 src={map_200_png}
