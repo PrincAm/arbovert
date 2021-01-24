@@ -61,6 +61,7 @@
   text-decoration: none;
 }
 
+.Header-nav a,
 .Header-nav a:active,
 .Header-nav a:visited,
 .Header-nav a:focus {
