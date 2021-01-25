@@ -21,7 +21,7 @@ const App = () => (
       <meta name="description" content="Arboristika a výškové práce" />
       <meta
         name="keywords"
-        content="hroty proti holubům,sítě proti holubům,výškové práce,práce ve výškách,mytí oken,mytí fasád čištění fasád,opravy fasád,péčě o dřeviny,likvidace dřeva,prořezávání stromů,arboristika,rizikové kácení stromů"
+        content="hroty proti holubům,sítě proti holubům,výškové práce,práce ve výškách,mytí oken,mytí fasád čištění fasád,opravy fasád,péčě o dřeviny,likvidace dřeva,prořezávání stromů,arboristika,rizikové kácení stromů,výsadba stromů a povýsadbová péče"
       />
       <link rel="canonical" href="https://arbovert.cz/" />
     </Helmet>

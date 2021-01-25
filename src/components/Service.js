@@ -29,6 +29,7 @@ const Service = () => (
             <li>zajišťovaní stromů</li>
             <li>prořezávání ovocných stromů</li>
             <li>likvidaci dřevní hmoty</li>
+            <li>výsadbu stromů a povýsadbovou péči</li>
           </ul>
         </div>
       </div>
