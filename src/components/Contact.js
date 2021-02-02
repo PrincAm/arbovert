@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {useForm} from 'react-hook-form'
+import emailjs from 'emailjs-com';
 
 import map_200 from '../assets/map/map_vbd5mu_c_scale,w_200.webp'
 import map_419 from '../assets/map/map_vbd5mu_c_scale,w_419.webp'
@@ -9,25 +10,15 @@ import {ReactComponent as PhoneLogo} from '../assets/phone.svg'
 
 import '../styles/Contact.css'
 
-const encode = (data) => {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
-}
-
 const Contact = () => {
   const {register, handleSubmit, errors} = useForm()
   const [isFormSent, setFormSent] = useState(false)
 
   const onSubmit = (data) => {
-    fetch('/', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-      body: encode({
-        'form-name': 'contact',
-        ...data
-      })
-    }).then(() => setFormSent(true))
+    console.log(data);
+
+    emailjs.send('service_x8qh9sw', 'template_dx6j3tm', data, 'user_OBsv0ODBZx1Rh8zsCBsIm');
+    setFormSent(true);
   }
 
   return (
