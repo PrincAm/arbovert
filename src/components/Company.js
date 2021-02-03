@@ -22,7 +22,7 @@ const Service = () => {
             <source src={chainiaxe_200_jpg} type="image/jpeg" />
             <img
               src={chainiaxe_200_jpg}
-              alt="chain axe"
+              alt="motorová pila"
             />
           </picture>
           Náš Arbovert se již od roku 2013 zabývá arboristikou, kompletní péčí o dřeviny a výškovými pracemi všeho

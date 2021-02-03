@@ -31,7 +31,7 @@ class Header extends Component {
           <nav className="Header-nav">
             <div className="Header-logo">
               <NavHashLink to="/#" smooth>
-                <img src={logo} alt="logo arbovert" />
+                <img src={logo} alt="arbovert" />
               </NavHashLink>
             </div>
             <div className="Header-spacer" />

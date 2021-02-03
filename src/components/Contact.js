@@ -60,7 +60,7 @@ const Contact = () => {
               <source src={map_200_png} type="image/png" />
               <img
                 src={map_200_png}
-                alt="map of czech republic"
+                alt="mapa České Republiky"
               />
             </picture>
           </div>

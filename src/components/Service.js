@@ -43,7 +43,7 @@ const Service = () => (
           <img
             height={400}
             src={arbo1_200_jpg}
-            alt="cutted tree"
+            alt="kácení stromů"
           />
         </picture>
         <picture>
@@ -56,7 +56,7 @@ const Service = () => (
           <img
             height={400}
             src={arbo2_200_jpg}
-            alt="cutted tree"
+            alt="kácení stromů"
           />
         </picture>
       </div>
@@ -90,7 +90,7 @@ const Service = () => (
           <img
             height={430}
             src={upWork1_200_jpg}
-            alt="building"
+            alt="výškové práce"
           />
         </picture>
         <picture>
@@ -103,7 +103,7 @@ const Service = () => (
           <img
             height={430}
             src={upWork2_200_jpg}
-            alt="building web"
+            alt="výškové práce"
           />
         </picture>
       </div>
