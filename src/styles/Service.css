@@ -25,6 +25,10 @@
   margin-top: 0;
 }
 
+.Service-images {
+  display: flex;
+}
+
 .Service-images img:first-of-type {
   padding-right: 1em;
 }
