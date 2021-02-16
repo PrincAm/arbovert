@@ -69,6 +69,7 @@ const Service = () => (
           <br /> všechna povolání
           <ul>
             <li>opravy fasád</li>
+            <li>shazování sněhu</li>
             <li>kompletní servis proti ptactvu</li>
             <li>drobné klempířské a pokrývačské opravy</li>
             <li>tlakové mytí fasád</li>
