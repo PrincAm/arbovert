@@ -158,6 +158,19 @@
   margin-top: 0.2em;
 }
 
+.Contact-addressWrapper {
+  display: flex;
+}
+
+.Contact-addressHeader {
+  color: #ec2b2c;
+  margin: 0.4em 0 0;
+}
+
+.Contact-addressHeader:first-of-type {
+  margin-right: 3rem;
+}
+
 .Contact-button {
   padding: 0.5em 1.5em;
   line-height: 1.2em;
@@ -235,5 +248,13 @@
 
   .Contact-button {
     -webkit-appearance: none;
+  }
+
+  .Contact-addressWrapper {
+    flex-direction: column;
+  }
+
+  .Contact-addressHeader:first-of-type {
+    margin-right: 0;
   }
 }
