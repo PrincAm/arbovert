@@ -18,11 +18,7 @@ const App = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Arbovert | Arboristika a výškové práce | Praha</title>
-      <meta name="description" content="Arboristika a výškové práce" />
-      <meta
-        name="keywords"
-        content="hroty proti holubům,sítě proti holubům,výškové práce,práce ve výškách,mytí oken,shazování sněhu,mytí fasád čištění fasád,opravy fasád,péčě o dřeviny,likvidace dřeva,prořezávání stromů,arboristika,rizikové kácení stromů,výsadba stromů a povýsadbová péče"
-      />
+      <meta name="description" content="Arboristika a výškové práce Praha" />
       <link rel="canonical" href="https://arbovert.cz/" />
     </Helmet>
     <Header />
