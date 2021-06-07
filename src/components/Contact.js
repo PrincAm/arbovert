@@ -77,7 +77,7 @@ const Contact = () => {
         <br />
         <div>Působíme v celých Čechách!</div>
         <div className="Contact-formWrapper Contact-maxWidth">
-          {!isFormSent ? (
+          {isFormSent ? (
             <ThanksMessage />
           ) : (
             <>
