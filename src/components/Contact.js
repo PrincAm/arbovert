@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {useForm} from 'react-hook-form'
 import emailjs from 'emailjs-com';
 
+import ThanksMessage from "./ThanksMessage";
 import map_200 from '../assets/map/map_vbd5mu_c_scale,w_200.webp'
 import map_419 from '../assets/map/map_vbd5mu_c_scale,w_419.webp'
 import map_200_png from '../assets/map/map.png'
@@ -15,8 +16,6 @@ const Contact = () => {
   const [isFormSent, setFormSent] = useState(false)
 
   const onSubmit = (data) => {
-    console.log(data);
-
     emailjs.send('service_x8qh9sw', 'template_dx6j3tm', data, 'user_OBsv0ODBZx1Rh8zsCBsIm');
     setFormSent(true);
   }
@@ -62,7 +61,7 @@ const Contact = () => {
           </div>
           <div className="Contact-map">
             <picture>
-              <source 
+              <source
                 sizes="(max-width: 419px) 100vw, 419px"
                 srcSet={`${map_200} 200w, ${map_419} 419w`}
                 src={map_419}
@@ -78,8 +77,8 @@ const Contact = () => {
         <br />
         <div>Působíme v celých Čechách!</div>
         <div className="Contact-formWrapper Contact-maxWidth">
-          {isFormSent ? (
-            <div className="Contact-formThank">Děkujeme Vám za dotaz! Budeme Vás brzy kontaktovat.</div>
+          {!isFormSent ? (
+            <ThanksMessage />
           ) : (
             <>
               <h2>Nebo nás kontaktujte pomocí formuláře</h2>

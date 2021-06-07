@@ -186,10 +186,6 @@
   color: #ffffff;
 }
 
-.Contact-formThank {
-  margin-top: 1.2em;
-}
-
 @media (max-width: 767px) {
   .Contact {
     font-size: 0.8em;
